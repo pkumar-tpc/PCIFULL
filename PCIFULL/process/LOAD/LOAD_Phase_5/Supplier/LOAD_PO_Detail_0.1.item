@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_T4gVkMNNEe2wnKnnokfdBg" name="AZURE_DLS_ACCOUNT_NAME" prompt="configuration.accountName?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="trexonerpstorage"/>
+    <contextParameter comment="" internalId="_T4gVkcNNEe2wnKnnokfdBg" name="AZURE_DLS_SHARED_KEY" prompt="configuration.sharedKey?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:RR5f2zqRpn3yQzuP+xoB9iNDqkzqCP7TlultGBrU+XcX+SAn3fOO89lWL8ww7UR2BLou5TEMYf/PU0e5mcZa4Bk3wWcwjzCkSj9g+HhCPZ7OrhOWiMHLVK5nyMg0HCInoem0CO4AEx639cgaKBIb8o0KYbE="/>
+    <contextParameter comment="" internalId="_T4gVksNNEe2wnKnnokfdBg" name="AZURE_ENDPOINT_SUFFIX" prompt="configuration.endpointSuffix?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="dfs.core.windows.net"/>
+    <contextParameter comment="" internalId="_T4gVk8NNEe2wnKnnokfdBg" name="DB_HOST" prompt="DB_HOST?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="epicor-sql-test"/>
+    <contextParameter comment="" internalId="_T4gVlMNNEe2wnKnnokfdBg" name="DB_NAME" prompt="DB_NAME?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Epicor700test"/>
+    <contextParameter comment="" internalId="_T4gVlcNNEe2wnKnnokfdBg" name="DB_PASS" prompt="DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:SF9IyEDOmGHStswP3u3fJ6jioqjY8NCAvy/XgMmmH7NfUe8iObjy1+cdjPY5CCpd7Q0OUJGdxFzfDNw="/>
+    <contextParameter comment="" internalId="_T4gVlsNNEe2wnKnnokfdBg" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_T4gVl8NNEe2wnKnnokfdBg" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="TalendSQL"/>
+    <contextParameter comment="" internalId="_T4gVmMNNEe2wnKnnokfdBg" name="ID" prompt="ID?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Vendor_Trexon_19012023"/>
+    <contextParameter comment="" internalId="_T4gVmcNNEe2wnKnnokfdBg" name="LOADING_FILESYSTEM" prompt="configuration.dataSet.filesystem?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="golive"/>
+    <contextParameter comment="" internalId="_T4gVmsNNEe2wnKnnokfdBg" name="Plant" prompt="Plant?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="MfgSys"/>
+    <contextParameter comment="" internalId="_T4gVm8NNEe2wnKnnokfdBg" name="SRC_COMPANY" prompt="SRC_COMPANY?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PCI"/>
+    <contextParameter comment="" internalId="_T4gVnMNNEe2wnKnnokfdBg" name="SRC_COMPANY_SEG" prompt="SRC_COMPANY_SEG?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="97"/>
+    <contextParameter comment="" internalId="_T4gVncNNEe2wnKnnokfdBg" name="SRC_COOKIE" prompt="SRC_COOKIE?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_T4gVnsNNEe2wnKnnokfdBg" name="SRC_DB_HOST" prompt="SRC_DB_HOST?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="epicor-sql-prod"/>
+    <contextParameter comment="" internalId="_T4gVn8NNEe2wnKnnokfdBg" name="SRC_DB_NAME" prompt="SRC_DB_NAME?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Epicor700Prod"/>
+    <contextParameter comment="" internalId="_T4gVoMNNEe2wnKnnokfdBg" name="SRC_DB_PASS" prompt="SRC_DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:hzUP/affXxsUr5/ePvVDywZJQhb62AZRfRliR43aYEJSw1ysnzwHTz6a9kcpu4AcJQL366gsWrkdbIY="/>
+    <contextParameter comment="" internalId="_T4gVocNNEe2wnKnnokfdBg" name="SRC_DB_PORT" prompt="SRC_DB_PORT?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_T4gVosNNEe2wnKnnokfdBg" name="SRC_DB_USER" prompt="SRC_DB_USER?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="TalendSQL"/>
+    <contextParameter comment="" internalId="_T4gVo8NNEe2wnKnnokfdBg" name="SRC_PW" prompt="SRC_PW?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="dpipeline"/>
+    <contextParameter comment="" internalId="_T4gVpMNNEe2wnKnnokfdBg" name="SRC_UN" prompt="SRC_UN?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="pkumar"/>
+    <contextParameter comment="" internalId="_T4gVpcNNEe2wnKnnokfdBg" name="SRC_URL" prompt="SRC_URL?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="https://epicor-app-test.tpcwire.com/Epicor700Prod/api/v1/"/>
+    <contextParameter comment="" internalId="_T4gVpsNNEe2wnKnnokfdBg" name="TGT_COMPANY" prompt="TGT_COMPANY?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PCIFULL"/>
+    <contextParameter comment="" internalId="_T4gVp8NNEe2wnKnnokfdBg" name="TGT_COMPANY_SEG" prompt="TGT_COMPANY_SEG?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="98"/>
+    <contextParameter comment="" internalId="_T4gVqMNNEe2wnKnnokfdBg" name="TGT_COOKIE" prompt="TGT_COOKIE?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_T4gVqcNNEe2wnKnnokfdBg" name="TGT_PW" prompt="TGT_PW?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="8c^S^bd9Cs8v"/>
+    <contextParameter comment="" internalId="_T4gVqsNNEe2wnKnnokfdBg" name="TGT_UN" prompt="TGT_UN?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="pkumar "/>
+    <contextParameter comment="" internalId="_T4gVq8NNEe2wnKnnokfdBg" name="TGT_URL" prompt="TGT_URL?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="https://epicor-app-test.tpcwire.com/Epicor700test/api/v1/"/>
+    <contextParameter comment="" internalId="_T4gVrMNNEe2wnKnnokfdBg" name="TOP_ID" prompt="TOP_ID?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="$top"/>
+    <contextParameter comment="" internalId="_T4gVrcNNEe2wnKnnokfdBg" name="TOP_VALUE" prompt="TOP_VALUE?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Integer" value="15000"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:tnLRWCfvft820icwF+YAuJP4aEmJrs8uTGlNTl/F"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/TPC/Talend/Talend-Studio-20211109_1610-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:PSoAa63dhptqmweMzKAGmnoKBzf442BJ4yscCvkb"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_sFk9YJlOEey90tz_U_8yPQ" name="DataOperation"/>
+    <routinesParameter id="_sFsSIJlOEey90tz_U_8yPQ" name="Mathematical"/>
+    <routinesParameter id="_sFzm4JlOEey90tz_U_8yPQ" name="Numeric"/>
+    <routinesParameter id="_sGBpUJlOEey90tz_U_8yPQ" name="Relational"/>
+    <routinesParameter id="_sE8EMJlOEey90tz_U_8yPQ" name="SQLike"/>
+    <routinesParameter id="_sGKzQJlOEey90tz_U_8yPQ" name="StringHandling"/>
+    <routinesParameter id="_sGSIAJlOEey90tz_U_8yPQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_sGXnkJlOEey90tz_U_8yPQ" name="TalendDate"/>
+    <routinesParameter id="_sGm4IJlOEey90tz_U_8yPQ" name="TalendStringUtil"/>
+    <routinesParameter id="_sGduMJlOEey90tz_U_8yPQ" name="TalendString"/>
+    <routinesParameter id="__W3P8I22Ee29S99NspQpaw" name="DQTechnical"/>
+    <routinesParameter id="__Wn_YI22Ee29S99NspQpaw" name="DataQuality"/>
+    <routinesParameter id="__V_GMI22Ee29S99NspQpaw" name="DataMasking"/>
+    <routinesParameter id="__WyXcI22Ee29S99NspQpaw" name="DqStringHandling"/>
+    <routinesParameter id="__Ws34I22Ee29S99NspQpaw" name="DataQualityDependencies"/>
+  </parameters>
+  <node componentName="tAzureAdlsGen2Connection" componentVersion="3" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAzureAdlsGen2Connection_1"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="YXp1cmUtZGxzLWdlbjIjQXp1cmUjQWRsc0dlbjJJbnB1dAConnection"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.authMethod" value="SharedKey"/>
+    <elementParameter field="TEXT" name="configuration.accountName" value="context.AZURE_DLS_ACCOUNT_NAME"/>
+    <elementParameter field="TEXT" name="configuration.endpointSuffix" value="context.AZURE_ENDPOINT_SUFFIX"/>
+    <elementParameter field="PASSWORD" name="configuration.sharedKey" value="enc:system.encryption.key.v1:U3EU9bSyk8MwFgKUPeT15eftlrTDKnRjXJCKpDCuUe09LAVcKyW9Uh7KdQp98prtQ2fvH6z9XHo="/>
+    <elementParameter field="TEXT" name="configuration.timeout" value="600"/>
+    <elementParameter field="TECHNICAL" name="configuration.__version" show="false" value="-1"/>
+    <metadata connector="FLOW" name="tAzureAdlsGen2Connection_1"/>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT"/>
+  </node>
+  <node componentName="AzureAdlsGen2Input" componentVersion="3" offsetLabelX="0" offsetLabelY="0" posX="128" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAzureAdlsGen2Input_1"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="YXp1cmUtZGxzLWdlbjIjQXp1cmUjQWRsc0dlbjJJbnB1dA"/>
+    <elementParameter field="TEXT" name="LABEL" value="PODetail"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.connection.endpointSuffix" show="false" value="dfs.core.windows.net"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.filesystem" value="context.LOADING_FILESYSTEM"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.blobPath" value="context.ID+&quot;/PurchaseOrderDetail&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.format" value="JSON"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.recordDelimiter" show="false" value="CRLF"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.fieldDelimiter" show="false" value="SEMICOLON"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.encoding" show="false" value="UTF8"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.csvConfiguration.csvFormatOptions.useHeader" show="false" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.csvConfiguration.csvFormatOptions.header" show="false" value="1"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.connection.timeout" show="false" value="600"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tAzureAdlsGen2Connection_1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="3"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.connection.__version" show="false" value="-1"/>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT"/>
+    <metadata connector="FLOW" label="metadata" name="tAzureAdlsGen2Input_1">
+      <column comment="" key="false" length="8" name="Company" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="OpenLine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="VoidLine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="PONUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="POLine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="256" name="LineDesc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="IUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="UnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="OrderQty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="XOrderQty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="Taxable" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="PUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="CostPerCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="PartNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="VenPartNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="256" name="CommentText" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ClassID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="RevisionNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="RcvInspectionReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="VendorNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="AdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="Confirmed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="DateChgReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="QtyChgReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="PartNumChgReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="RevisionNumChgReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="ConfirmVia" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="PrcChgReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="PurchCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="OrderNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="OrderLine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="Linked" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="ExtCompany" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="GlbCompany" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="ContractActive" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="ContractQty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="ContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="ContractDocUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1AdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2AdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3AdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1UnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2UnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3UnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="ContractQtyUOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1ContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2ContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3ContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="BaseQty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="BaseUOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="BTOOrderNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="BTOOrderLine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="VendorPartOpts" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="MfgPartOpts" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="SubPartOpts" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="MfgNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="MfgPartNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="SubPartNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="SubPartType" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="ConfigUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="ConfigBaseUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="ConvOverRide" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="BasePartNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="BaseRevisionNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="Direction" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="Per" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="MaintainPricingUnits" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="OverrideConversion" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="RowsManualFactor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="KeepRowsManualFactorTmp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ShipToSupplierDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="Factor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="PricingQty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="PricingUnitPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="UOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="GroupSeq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="DocPricingUnitPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="OverridePriceList" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="QtyOption" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="256" name="OrigComment" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="256" name="SmartString" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="SmartStringProcessed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DueDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="ContractID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="LinkToContract" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="SelCurrPricingUnitPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="75" name="ChangedBy" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ChangeDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="PCLinkRemoved" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TaxCatID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="NoTaxRecalc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="InUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocInUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1InUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2InUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3InUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="InAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocInAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1InAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2InAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3InAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="InContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocInContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1InContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2InContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3InContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocExtCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="ExtCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1ExtCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2ExtCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3ExtCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocMiscCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="MiscCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1MiscCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2MiscCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3MiscCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="TotalTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocTotalTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1TotalTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2TotalTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3TotalTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="TotalSATax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocTotalSATax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1TotalSATax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2TotalSATax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3TotalSATax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="TotalDedTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocTotalDedTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1TotalDedTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2TotalDedTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3TotalDedTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="CommodityCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="BitFlag" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_pHd9gODLEey1CokwI2TDCw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column comment="" key="false" length="8" name="Company" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="OpenLine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="VoidLine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="PONUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="POLine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="256" name="LineDesc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="IUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="UnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="OrderQty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="XOrderQty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="Taxable" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="PUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="CostPerCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="PartNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="VenPartNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="256" name="CommentText" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ClassID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="RevisionNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="RcvInspectionReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="VendorNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="AdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="Confirmed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="DateChgReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="QtyChgReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="PartNumChgReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="RevisionNumChgReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="ConfirmVia" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="PrcChgReq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="PurchCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="OrderNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="OrderLine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="Linked" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="ExtCompany" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="GlbCompany" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="ContractActive" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="ContractQty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="ContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="ContractDocUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1AdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2AdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3AdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1UnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2UnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3UnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="ContractQtyUOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1ContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2ContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3ContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="BaseQty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="BaseUOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="BTOOrderNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="BTOOrderLine" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="VendorPartOpts" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="MfgPartOpts" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="SubPartOpts" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="MfgNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="MfgPartNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="SubPartNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="SubPartType" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="ConfigUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="ConfigBaseUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="ConvOverRide" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="BasePartNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="BaseRevisionNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="Direction" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="Per" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="MaintainPricingUnits" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="OverrideConversion" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="RowsManualFactor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="KeepRowsManualFactorTmp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ShipToSupplierDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="Factor" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="PricingQty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="PricingUnitPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="UOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="GroupSeq" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="DocPricingUnitPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="OverridePriceList" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="QtyOption" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="256" name="OrigComment" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="256" name="SmartString" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="SmartStringProcessed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DueDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="ContractID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="LinkToContract" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="SelCurrPricingUnitPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="75" name="ChangedBy" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ChangeDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="PCLinkRemoved" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TaxCatID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="NoTaxRecalc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="InUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocInUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1InUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2InUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3InUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="InAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocInAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1InAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2InAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3InAdvancePayBal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="InContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocInContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1InContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2InContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3InContractUnitCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocExtCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="ExtCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1ExtCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2ExtCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3ExtCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocMiscCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="MiscCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1MiscCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2MiscCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3MiscCost" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="TotalTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocTotalTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1TotalTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2TotalTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3TotalTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="TotalSATax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocTotalSATax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1TotalSATax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2TotalSATax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3TotalSATax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="TotalDedTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="DocTotalDedTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt1TotalDedTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt2TotalDedTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="Rpt3TotalDedTax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="CommodityCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="BitFlag" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="SysRowID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="UNIQUEIDENTIFIER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="RowMod" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables activateColumnNameFilter="true" columnNameFilter="" name="out1" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.Company " name="Company" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.OpenLine " name="OpenLine" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.VoidLine " name="VoidLine" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.PONUM " name="PONUM" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.POLine " name="POLine" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.LineDesc " name="LineDesc" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.IUM " name="IUM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.UnitCost " name="UnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DocUnitCost " name="DocUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.OrderQty " name="OrderQty" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.XOrderQty " name="XOrderQty" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Taxable " name="Taxable" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.PUM " name="PUM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CostPerCode " name="CostPerCode" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PartNum " name="PartNum" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.VenPartNum " name="VenPartNum" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CommentText " name="CommentText" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ClassID " name="ClassID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.RevisionNum " name="RevisionNum" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.RcvInspectionReq " name="RcvInspectionReq" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.VendorNum " name="VendorNum" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.AdvancePayBal " name="AdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DocAdvancePayBal " name="DocAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Confirmed " name="Confirmed" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.DateChgReq " name="DateChgReq" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.QtyChgReq " name="QtyChgReq" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.PartNumChgReq " name="PartNumChgReq" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.RevisionNumChgReq " name="RevisionNumChgReq" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ConfirmVia " name="ConfirmVia" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PrcChgReq " name="PrcChgReq" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.PurchCode " name="PurchCode" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.OrderNum " name="OrderNum" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.OrderLine " name="OrderLine" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.Linked " name="Linked" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.ExtCompany " name="ExtCompany" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.GlbCompany " name="GlbCompany" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ContractActive " name="ContractActive" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.ContractQty " name="ContractQty" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.ContractUnitCost " name="ContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.ContractDocUnitCost " name="ContractDocUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt1AdvancePayBal " name="Rpt1AdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt2AdvancePayBal " name="Rpt2AdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt3AdvancePayBal " name="Rpt3AdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt1UnitCost " name="Rpt1UnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt2UnitCost " name="Rpt2UnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt3UnitCost " name="Rpt3UnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.ContractQtyUOM " name="ContractQtyUOM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Rpt1ContractUnitCost " name="Rpt1ContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt2ContractUnitCost " name="Rpt2ContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt3ContractUnitCost " name="Rpt3ContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.BaseQty " name="BaseQty" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.BaseUOM " name="BaseUOM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.BTOOrderNum " name="BTOOrderNum" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.BTOOrderLine " name="BTOOrderLine" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.VendorPartOpts " name="VendorPartOpts" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.MfgPartOpts " name="MfgPartOpts" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SubPartOpts " name="SubPartOpts" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.MfgNum " name="MfgNum" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.MfgPartNum " name="MfgPartNum" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SubPartNum " name="SubPartNum" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SubPartType " name="SubPartType" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ConfigUnitCost " name="ConfigUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.ConfigBaseUnitCost " name="ConfigBaseUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.ConvOverRide " name="ConvOverRide" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.BasePartNum " name="BasePartNum" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.BaseRevisionNum " name="BaseRevisionNum" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Direction " name="Direction" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Per " name="Per" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.MaintainPricingUnits " name="MaintainPricingUnits" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.OverrideConversion " name="OverrideConversion" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.RowsManualFactor " name="RowsManualFactor" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.KeepRowsManualFactorTmp " name="KeepRowsManualFactorTmp" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.ShipToSupplierDate " name="ShipToSupplierDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.Factor " name="Factor" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.PricingQty " name="PricingQty" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.PricingUnitPrice " name="PricingUnitPrice" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.UOM " name="UOM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.GroupSeq " name="GroupSeq" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.DocPricingUnitPrice " name="DocPricingUnitPrice" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.OverridePriceList " name="OverridePriceList" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.QtyOption " name="QtyOption" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.OrigComment " name="OrigComment" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SmartString " name="SmartString" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SmartStringProcessed " name="SmartStringProcessed" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.DueDate " name="DueDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.ContractID " name="ContractID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.LinkToContract " name="LinkToContract" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.SelCurrPricingUnitPrice " name="SelCurrPricingUnitPrice" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.ChangedBy " name="ChangedBy" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ChangeDate " name="ChangeDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.PCLinkRemoved " name="PCLinkRemoved" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.TaxCatID " name="TaxCatID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.NoTaxRecalc " name="NoTaxRecalc" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.InUnitCost " name="InUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DocInUnitCost " name="DocInUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt1InUnitCost " name="Rpt1InUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt2InUnitCost " name="Rpt2InUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt3InUnitCost " name="Rpt3InUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.InAdvancePayBal " name="InAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DocInAdvancePayBal " name="DocInAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt1InAdvancePayBal " name="Rpt1InAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt2InAdvancePayBal " name="Rpt2InAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt3InAdvancePayBal " name="Rpt3InAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.InContractUnitCost " name="InContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DocInContractUnitCost " name="DocInContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt1InContractUnitCost " name="Rpt1InContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt2InContractUnitCost " name="Rpt2InContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt3InContractUnitCost " name="Rpt3InContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DocExtCost " name="DocExtCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.ExtCost " name="ExtCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt1ExtCost " name="Rpt1ExtCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt2ExtCost " name="Rpt2ExtCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt3ExtCost " name="Rpt3ExtCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DocMiscCost " name="DocMiscCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.MiscCost " name="MiscCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt1MiscCost " name="Rpt1MiscCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt2MiscCost " name="Rpt2MiscCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt3MiscCost " name="Rpt3MiscCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.TotalTax " name="TotalTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DocTotalTax " name="DocTotalTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt1TotalTax " name="Rpt1TotalTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt2TotalTax " name="Rpt2TotalTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt3TotalTax " name="Rpt3TotalTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.TotalSATax " name="TotalSATax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DocTotalSATax " name="DocTotalSATax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt1TotalSATax " name="Rpt1TotalSATax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt2TotalSATax " name="Rpt2TotalSATax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt3TotalSATax " name="Rpt3TotalSATax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.TotalDedTax " name="TotalDedTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DocTotalDedTax " name="DocTotalDedTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt1TotalDedTax " name="Rpt1TotalDedTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt2TotalDedTax " name="Rpt2TotalDedTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.Rpt3TotalDedTax " name="Rpt3TotalDedTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.CommodityCode " name="CommodityCode" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.BitFlag " name="BitFlag" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row5.SysRowID == null? &quot;00000000-0000-0000-0000-000000000000&quot;:row5.SysRowID " name="SysRowID" type="id_String"/>
+        <mapperTableEntries expression="row5.SysRowID == null? &quot;A&quot;:&quot;U&quot;" name="RowMod" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables activateColumnNameFilter="true" columnNameFilter="" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="Company" nullable="true" type="id_String"/>
+        <mapperTableEntries name="OpenLine" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="VoidLine" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="PONUM" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="POLine" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="LineDesc" nullable="true" type="id_String"/>
+        <mapperTableEntries name="IUM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="UnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DocUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="OrderQty" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="XOrderQty" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Taxable" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="PUM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CostPerCode" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PartNum" nullable="true" type="id_String"/>
+        <mapperTableEntries name="VenPartNum" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CommentText" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ClassID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="RevisionNum" nullable="true" type="id_String"/>
+        <mapperTableEntries name="RcvInspectionReq" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="VendorNum" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="AdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DocAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Confirmed" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="DateChgReq" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="QtyChgReq" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="PartNumChgReq" nullable="true" type="id_String"/>
+        <mapperTableEntries name="RevisionNumChgReq" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ConfirmVia" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PrcChgReq" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="PurchCode" nullable="true" type="id_String"/>
+        <mapperTableEntries name="OrderNum" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="OrderLine" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="Linked" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="ExtCompany" nullable="true" type="id_String"/>
+        <mapperTableEntries name="GlbCompany" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ContractActive" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="ContractQty" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ContractDocUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt1AdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt2AdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt3AdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt1UnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt2UnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt3UnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ContractQtyUOM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Rpt1ContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt2ContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt3ContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="BaseQty" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="BaseUOM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="BTOOrderNum" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="BTOOrderLine" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="VendorPartOpts" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MfgPartOpts" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SubPartOpts" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MfgNum" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="MfgPartNum" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SubPartNum" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SubPartType" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ConfigUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ConfigBaseUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ConvOverRide" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="BasePartNum" nullable="true" type="id_String"/>
+        <mapperTableEntries name="BaseRevisionNum" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Direction" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Per" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MaintainPricingUnits" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="OverrideConversion" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="RowsManualFactor" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="KeepRowsManualFactorTmp" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="ShipToSupplierDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="Factor" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="PricingQty" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="PricingUnitPrice" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="UOM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="GroupSeq" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="DocPricingUnitPrice" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="OverridePriceList" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="QtyOption" nullable="true" type="id_String"/>
+        <mapperTableEntries name="OrigComment" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SmartString" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SmartStringProcessed" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="DueDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="ContractID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LinkToContract" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="SelCurrPricingUnitPrice" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ChangedBy" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ChangeDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="PCLinkRemoved" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="TaxCatID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="NoTaxRecalc" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="InUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DocInUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt1InUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt2InUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt3InUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="InAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DocInAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt1InAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt2InAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt3InAdvancePayBal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="InContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DocInContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt1InContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt2InContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt3InContractUnitCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DocExtCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ExtCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt1ExtCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt2ExtCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt3ExtCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DocMiscCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MiscCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt1MiscCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt2MiscCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt3MiscCost" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="TotalTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DocTotalTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt1TotalTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt2TotalTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt3TotalTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="TotalSATax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DocTotalSATax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt1TotalSATax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt2TotalSATax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt3TotalSATax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="TotalDedTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DocTotalDedTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt1TotalDedTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt2TotalDedTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Rpt3TotalDedTax" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="CommodityCode" nullable="true" type="id_String"/>
+        <mapperTableEntries name="BitFlag" nullable="true" type="id_Integer"/>
+      </inputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row5" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.POLine " name="POLine" type="id_Integer"/>
+        <mapperTableEntries expression="row1.PONUM " name="PONum" type="id_Integer"/>
+        <mapperTableEntries name="SysRowID" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tWriteJSONField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWriteJSONField_1"/>
+    <elementParameter field="COLUMN_LIST" name="JSONFIELD" value="string"/>
+    <elementParameter field="TABLE" name="ROOT" show="false">
+      <elementValue elementRef="PATH" value="/rootTag"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="1"/>
+      <elementValue elementRef="PATH" value="/rootTag/OpenLine"/>
+      <elementValue elementRef="COLUMN" value="OpenLine"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="3"/>
+      <elementValue elementRef="PATH" value="/rootTag/VoidLine"/>
+      <elementValue elementRef="COLUMN" value="VoidLine"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="4"/>
+      <elementValue elementRef="PATH" value="/rootTag/PONUM"/>
+      <elementValue elementRef="COLUMN" value="PONUM"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="5"/>
+      <elementValue elementRef="PATH" value="/rootTag/POLine"/>
+      <elementValue elementRef="COLUMN" value="POLine"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="6"/>
+      <elementValue elementRef="PATH" value="/rootTag/LineDesc"/>
+      <elementValue elementRef="COLUMN" value="LineDesc"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="7"/>
+      <elementValue elementRef="PATH" value="/rootTag/IUM"/>
+      <elementValue elementRef="COLUMN" value="IUM"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="8"/>
+      <elementValue elementRef="PATH" value="/rootTag/UnitCost"/>
+      <elementValue elementRef="COLUMN" value="UnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="9"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocUnitCost"/>
+      <elementValue elementRef="COLUMN" value="DocUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="10"/>
+      <elementValue elementRef="PATH" value="/rootTag/OrderQty"/>
+      <elementValue elementRef="COLUMN" value="OrderQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="11"/>
+      <elementValue elementRef="PATH" value="/rootTag/XOrderQty"/>
+      <elementValue elementRef="COLUMN" value="XOrderQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="12"/>
+      <elementValue elementRef="PATH" value="/rootTag/Taxable"/>
+      <elementValue elementRef="COLUMN" value="Taxable"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="13"/>
+      <elementValue elementRef="PATH" value="/rootTag/PUM"/>
+      <elementValue elementRef="COLUMN" value="PUM"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="14"/>
+      <elementValue elementRef="PATH" value="/rootTag/CostPerCode"/>
+      <elementValue elementRef="COLUMN" value="CostPerCode"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="15"/>
+      <elementValue elementRef="PATH" value="/rootTag/PartNum"/>
+      <elementValue elementRef="COLUMN" value="PartNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="16"/>
+      <elementValue elementRef="PATH" value="/rootTag/VenPartNum"/>
+      <elementValue elementRef="COLUMN" value="VenPartNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="17"/>
+      <elementValue elementRef="PATH" value="/rootTag/CommentText"/>
+      <elementValue elementRef="COLUMN" value="CommentText"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="18"/>
+      <elementValue elementRef="PATH" value="/rootTag/ClassID"/>
+      <elementValue elementRef="COLUMN" value="ClassID"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="19"/>
+      <elementValue elementRef="PATH" value="/rootTag/RevisionNum"/>
+      <elementValue elementRef="COLUMN" value="RevisionNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="20"/>
+      <elementValue elementRef="PATH" value="/rootTag/RcvInspectionReq"/>
+      <elementValue elementRef="COLUMN" value="RcvInspectionReq"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="21"/>
+      <elementValue elementRef="PATH" value="/rootTag/AdvancePayBal"/>
+      <elementValue elementRef="COLUMN" value="AdvancePayBal"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="22"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocAdvancePayBal"/>
+      <elementValue elementRef="COLUMN" value="DocAdvancePayBal"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="23"/>
+      <elementValue elementRef="PATH" value="/rootTag/Confirmed"/>
+      <elementValue elementRef="COLUMN" value="Confirmed"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="24"/>
+      <elementValue elementRef="PATH" value="/rootTag/DateChgReq"/>
+      <elementValue elementRef="COLUMN" value="DateChgReq"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="25"/>
+      <elementValue elementRef="PATH" value="/rootTag/QtyChgReq"/>
+      <elementValue elementRef="COLUMN" value="QtyChgReq"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="26"/>
+      <elementValue elementRef="PATH" value="/rootTag/PartNumChgReq"/>
+      <elementValue elementRef="COLUMN" value="PartNumChgReq"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="27"/>
+      <elementValue elementRef="PATH" value="/rootTag/RevisionNumChgReq"/>
+      <elementValue elementRef="COLUMN" value="RevisionNumChgReq"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="28"/>
+      <elementValue elementRef="PATH" value="/rootTag/ConfirmVia"/>
+      <elementValue elementRef="COLUMN" value="ConfirmVia"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="29"/>
+      <elementValue elementRef="PATH" value="/rootTag/PrcChgReq"/>
+      <elementValue elementRef="COLUMN" value="PrcChgReq"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="30"/>
+      <elementValue elementRef="PATH" value="/rootTag/PurchCode"/>
+      <elementValue elementRef="COLUMN" value="PurchCode"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="31"/>
+      <elementValue elementRef="PATH" value="/rootTag/OrderNum"/>
+      <elementValue elementRef="COLUMN" value="OrderNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="32"/>
+      <elementValue elementRef="PATH" value="/rootTag/OrderLine"/>
+      <elementValue elementRef="COLUMN" value="OrderLine"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="33"/>
+      <elementValue elementRef="PATH" value="/rootTag/Linked"/>
+      <elementValue elementRef="COLUMN" value="Linked"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="34"/>
+      <elementValue elementRef="PATH" value="/rootTag/ExtCompany"/>
+      <elementValue elementRef="COLUMN" value="ExtCompany"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="35"/>
+      <elementValue elementRef="PATH" value="/rootTag/GlbCompany"/>
+      <elementValue elementRef="COLUMN" value="GlbCompany"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="36"/>
+      <elementValue elementRef="PATH" value="/rootTag/ContractActive"/>
+      <elementValue elementRef="COLUMN" value="ContractActive"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="37"/>
+      <elementValue elementRef="PATH" value="/rootTag/ContractQty"/>
+      <elementValue elementRef="COLUMN" value="ContractQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="38"/>
+      <elementValue elementRef="PATH" value="/rootTag/ContractUnitCost"/>
+      <elementValue elementRef="COLUMN" value="ContractUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="39"/>
+      <elementValue elementRef="PATH" value="/rootTag/ContractDocUnitCost"/>
+      <elementValue elementRef="COLUMN" value="ContractDocUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="40"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt1AdvancePayBal"/>
+      <elementValue elementRef="COLUMN" value="Rpt1AdvancePayBal"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="41"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt2AdvancePayBal"/>
+      <elementValue elementRef="COLUMN" value="Rpt2AdvancePayBal"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="42"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt3AdvancePayBal"/>
+      <elementValue elementRef="COLUMN" value="Rpt3AdvancePayBal"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="43"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt1UnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt1UnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="44"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt2UnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt2UnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="45"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt3UnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt3UnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="46"/>
+      <elementValue elementRef="PATH" value="/rootTag/ContractQtyUOM"/>
+      <elementValue elementRef="COLUMN" value="ContractQtyUOM"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="47"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt1ContractUnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt1ContractUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="48"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt2ContractUnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt2ContractUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="49"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt3ContractUnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt3ContractUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="50"/>
+      <elementValue elementRef="PATH" value="/rootTag/BaseQty"/>
+      <elementValue elementRef="COLUMN" value="BaseQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="51"/>
+      <elementValue elementRef="PATH" value="/rootTag/BaseUOM"/>
+      <elementValue elementRef="COLUMN" value="BaseUOM"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="52"/>
+      <elementValue elementRef="PATH" value="/rootTag/BTOOrderNum"/>
+      <elementValue elementRef="COLUMN" value="BTOOrderNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="53"/>
+      <elementValue elementRef="PATH" value="/rootTag/BTOOrderLine"/>
+      <elementValue elementRef="COLUMN" value="BTOOrderLine"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="54"/>
+      <elementValue elementRef="PATH" value="/rootTag/VendorPartOpts"/>
+      <elementValue elementRef="COLUMN" value="VendorPartOpts"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="55"/>
+      <elementValue elementRef="PATH" value="/rootTag/MfgPartOpts"/>
+      <elementValue elementRef="COLUMN" value="MfgPartOpts"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="56"/>
+      <elementValue elementRef="PATH" value="/rootTag/SubPartOpts"/>
+      <elementValue elementRef="COLUMN" value="SubPartOpts"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="57"/>
+      <elementValue elementRef="PATH" value="/rootTag/MfgNum"/>
+      <elementValue elementRef="COLUMN" value="MfgNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="58"/>
+      <elementValue elementRef="PATH" value="/rootTag/MfgPartNum"/>
+      <elementValue elementRef="COLUMN" value="MfgPartNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="59"/>
+      <elementValue elementRef="PATH" value="/rootTag/SubPartNum"/>
+      <elementValue elementRef="COLUMN" value="SubPartNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="60"/>
+      <elementValue elementRef="PATH" value="/rootTag/SubPartType"/>
+      <elementValue elementRef="COLUMN" value="SubPartType"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="61"/>
+      <elementValue elementRef="PATH" value="/rootTag/ConfigUnitCost"/>
+      <elementValue elementRef="COLUMN" value="ConfigUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="62"/>
+      <elementValue elementRef="PATH" value="/rootTag/ConfigBaseUnitCost"/>
+      <elementValue elementRef="COLUMN" value="ConfigBaseUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="63"/>
+      <elementValue elementRef="PATH" value="/rootTag/ConvOverRide"/>
+      <elementValue elementRef="COLUMN" value="ConvOverRide"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="64"/>
+      <elementValue elementRef="PATH" value="/rootTag/BasePartNum"/>
+      <elementValue elementRef="COLUMN" value="BasePartNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="65"/>
+      <elementValue elementRef="PATH" value="/rootTag/BaseRevisionNum"/>
+      <elementValue elementRef="COLUMN" value="BaseRevisionNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="66"/>
+      <elementValue elementRef="PATH" value="/rootTag/Direction"/>
+      <elementValue elementRef="COLUMN" value="Direction"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="67"/>
+      <elementValue elementRef="PATH" value="/rootTag/Per"/>
+      <elementValue elementRef="COLUMN" value="Per"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="68"/>
+      <elementValue elementRef="PATH" value="/rootTag/MaintainPricingUnits"/>
+      <elementValue elementRef="COLUMN" value="MaintainPricingUnits"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="69"/>
+      <elementValue elementRef="PATH" value="/rootTag/OverrideConversion"/>
+      <elementValue elementRef="COLUMN" value="OverrideConversion"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="70"/>
+      <elementValue elementRef="PATH" value="/rootTag/RowsManualFactor"/>
+      <elementValue elementRef="COLUMN" value="RowsManualFactor"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="71"/>
+      <elementValue elementRef="PATH" value="/rootTag/KeepRowsManualFactorTmp"/>
+      <elementValue elementRef="COLUMN" value="KeepRowsManualFactorTmp"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="72"/>
+      <elementValue elementRef="PATH" value="/rootTag/ShipToSupplierDate"/>
+      <elementValue elementRef="COLUMN" value="ShipToSupplierDate"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="73"/>
+      <elementValue elementRef="PATH" value="/rootTag/Factor"/>
+      <elementValue elementRef="COLUMN" value="Factor"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="74"/>
+      <elementValue elementRef="PATH" value="/rootTag/PricingQty"/>
+      <elementValue elementRef="COLUMN" value="PricingQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="75"/>
+      <elementValue elementRef="PATH" value="/rootTag/PricingUnitPrice"/>
+      <elementValue elementRef="COLUMN" value="PricingUnitPrice"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="76"/>
+      <elementValue elementRef="PATH" value="/rootTag/UOM"/>
+      <elementValue elementRef="COLUMN" value="UOM"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="77"/>
+      <elementValue elementRef="PATH" value="/rootTag/GroupSeq"/>
+      <elementValue elementRef="COLUMN" value="GroupSeq"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="78"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocPricingUnitPrice"/>
+      <elementValue elementRef="COLUMN" value="DocPricingUnitPrice"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="79"/>
+      <elementValue elementRef="PATH" value="/rootTag/OverridePriceList"/>
+      <elementValue elementRef="COLUMN" value="OverridePriceList"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="80"/>
+      <elementValue elementRef="PATH" value="/rootTag/QtyOption"/>
+      <elementValue elementRef="COLUMN" value="QtyOption"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="81"/>
+      <elementValue elementRef="PATH" value="/rootTag/OrigComment"/>
+      <elementValue elementRef="COLUMN" value="OrigComment"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="82"/>
+      <elementValue elementRef="PATH" value="/rootTag/SmartString"/>
+      <elementValue elementRef="COLUMN" value="SmartString"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="83"/>
+      <elementValue elementRef="PATH" value="/rootTag/SmartStringProcessed"/>
+      <elementValue elementRef="COLUMN" value="SmartStringProcessed"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="84"/>
+      <elementValue elementRef="PATH" value="/rootTag/DueDate"/>
+      <elementValue elementRef="COLUMN" value="DueDate"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="85"/>
+      <elementValue elementRef="PATH" value="/rootTag/ContractID"/>
+      <elementValue elementRef="COLUMN" value="ContractID"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="86"/>
+      <elementValue elementRef="PATH" value="/rootTag/LinkToContract"/>
+      <elementValue elementRef="COLUMN" value="LinkToContract"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="87"/>
+      <elementValue elementRef="PATH" value="/rootTag/SelCurrPricingUnitPrice"/>
+      <elementValue elementRef="COLUMN" value="SelCurrPricingUnitPrice"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="88"/>
+      <elementValue elementRef="PATH" value="/rootTag/ChangedBy"/>
+      <elementValue elementRef="COLUMN" value="ChangedBy"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="89"/>
+      <elementValue elementRef="PATH" value="/rootTag/ChangeDate"/>
+      <elementValue elementRef="COLUMN" value="ChangeDate"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="90"/>
+      <elementValue elementRef="PATH" value="/rootTag/PCLinkRemoved"/>
+      <elementValue elementRef="COLUMN" value="PCLinkRemoved"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="91"/>
+      <elementValue elementRef="PATH" value="/rootTag/TaxCatID"/>
+      <elementValue elementRef="COLUMN" value="TaxCatID"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="92"/>
+      <elementValue elementRef="PATH" value="/rootTag/NoTaxRecalc"/>
+      <elementValue elementRef="COLUMN" value="NoTaxRecalc"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="93"/>
+      <elementValue elementRef="PATH" value="/rootTag/InUnitCost"/>
+      <elementValue elementRef="COLUMN" value="InUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="94"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocInUnitCost"/>
+      <elementValue elementRef="COLUMN" value="DocInUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="95"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt1InUnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt1InUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="96"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt2InUnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt2InUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="97"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt3InUnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt3InUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="98"/>
+      <elementValue elementRef="PATH" value="/rootTag/InAdvancePayBal"/>
+      <elementValue elementRef="COLUMN" value="InAdvancePayBal"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="99"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocInAdvancePayBal"/>
+      <elementValue elementRef="COLUMN" value="DocInAdvancePayBal"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="100"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt1InAdvancePayBal"/>
+      <elementValue elementRef="COLUMN" value="Rpt1InAdvancePayBal"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="101"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt2InAdvancePayBal"/>
+      <elementValue elementRef="COLUMN" value="Rpt2InAdvancePayBal"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="102"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt3InAdvancePayBal"/>
+      <elementValue elementRef="COLUMN" value="Rpt3InAdvancePayBal"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="103"/>
+      <elementValue elementRef="PATH" value="/rootTag/InContractUnitCost"/>
+      <elementValue elementRef="COLUMN" value="InContractUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="104"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocInContractUnitCost"/>
+      <elementValue elementRef="COLUMN" value="DocInContractUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="105"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt1InContractUnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt1InContractUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="106"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt2InContractUnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt2InContractUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="107"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt3InContractUnitCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt3InContractUnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="108"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocExtCost"/>
+      <elementValue elementRef="COLUMN" value="DocExtCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="109"/>
+      <elementValue elementRef="PATH" value="/rootTag/ExtCost"/>
+      <elementValue elementRef="COLUMN" value="ExtCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="110"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt1ExtCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt1ExtCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="111"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt2ExtCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt2ExtCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="112"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt3ExtCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt3ExtCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="113"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocMiscCost"/>
+      <elementValue elementRef="COLUMN" value="DocMiscCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="114"/>
+      <elementValue elementRef="PATH" value="/rootTag/MiscCost"/>
+      <elementValue elementRef="COLUMN" value="MiscCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="115"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt1MiscCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt1MiscCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="116"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt2MiscCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt2MiscCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="117"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt3MiscCost"/>
+      <elementValue elementRef="COLUMN" value="Rpt3MiscCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="118"/>
+      <elementValue elementRef="PATH" value="/rootTag/TotalTax"/>
+      <elementValue elementRef="COLUMN" value="TotalTax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="119"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocTotalTax"/>
+      <elementValue elementRef="COLUMN" value="DocTotalTax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="120"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt1TotalTax"/>
+      <elementValue elementRef="COLUMN" value="Rpt1TotalTax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="121"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt2TotalTax"/>
+      <elementValue elementRef="COLUMN" value="Rpt2TotalTax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="122"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt3TotalTax"/>
+      <elementValue elementRef="COLUMN" value="Rpt3TotalTax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="123"/>
+      <elementValue elementRef="PATH" value="/rootTag/TotalSATax"/>
+      <elementValue elementRef="COLUMN" value="TotalSATax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="124"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocTotalSATax"/>
+      <elementValue elementRef="COLUMN" value="DocTotalSATax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="125"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt1TotalSATax"/>
+      <elementValue elementRef="COLUMN" value="Rpt1TotalSATax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="126"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt2TotalSATax"/>
+      <elementValue elementRef="COLUMN" value="Rpt2TotalSATax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="127"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt3TotalSATax"/>
+      <elementValue elementRef="COLUMN" value="Rpt3TotalSATax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="128"/>
+      <elementValue elementRef="PATH" value="/rootTag/TotalDedTax"/>
+      <elementValue elementRef="COLUMN" value="TotalDedTax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="129"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocTotalDedTax"/>
+      <elementValue elementRef="COLUMN" value="DocTotalDedTax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="130"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt1TotalDedTax"/>
+      <elementValue elementRef="COLUMN" value="Rpt1TotalDedTax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="131"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt2TotalDedTax"/>
+      <elementValue elementRef="COLUMN" value="Rpt2TotalDedTax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="132"/>
+      <elementValue elementRef="PATH" value="/rootTag/Rpt3TotalDedTax"/>
+      <elementValue elementRef="COLUMN" value="Rpt3TotalDedTax"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="133"/>
+      <elementValue elementRef="PATH" value="/rootTag/CommodityCode"/>
+      <elementValue elementRef="COLUMN" value="CommodityCode"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="134"/>
+      <elementValue elementRef="PATH" value="/rootTag/BitFlag"/>
+      <elementValue elementRef="COLUMN" value="BitFlag"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="135"/>
+      <elementValue elementRef="PATH" value="/rootTag/CalcOurQty"/>
+      <elementValue elementRef="COLUMN" value="OrderQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="136"/>
+      <elementValue elementRef="PATH" value="/rootTag/CalcVendQty"/>
+      <elementValue elementRef="COLUMN" value="OrderQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="137"/>
+      <elementValue elementRef="PATH" value="/rootTag/DocScrUnitCost"/>
+      <elementValue elementRef="COLUMN" value="UnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="138"/>
+      <elementValue elementRef="PATH" value="/rootTag/ScrUnitCost"/>
+      <elementValue elementRef="COLUMN" value="UnitCost"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="139"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="GROUP" show="false"/>
+    <elementParameter field="TABLE" name="LOOP" show="false">
+      <elementValue elementRef="PATH" value="/rootTag/Company"/>
+      <elementValue elementRef="COLUMN" value="Company"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="2"/>
+    </elementParameter>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="TABLE" name="GROUPBYS"/>
+    <elementParameter field="CHECK" name="REMOVE_ROOT" value="true"/>
+    <elementParameter field="CHECK" name="COMPACT_FORMAT" show="false" value="true"/>
+    <elementParameter field="CHECK" name="QUOTE_ALL_VALUES" value="true"/>
+    <elementParameter field="CHECK" name="QUOTE_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="ALLOW_EMPTY_STRINGS" value="true"/>
+    <elementParameter field="CHECK" name="USE_SCIENTIFIC_NOTATION" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWriteJSONField_1">
+      <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="4048" name="string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="28" offsetLabelY="-64" posX="768" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_1"/>
+    <elementParameter field="TEXT" name="URL" value="context.TGT_URL"/>
+    <elementParameter field="TEXT" name="PATH" value="&quot;Erp.BO.POSvc/PODetails&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="METHOD" value="POST"/>
+    <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json"/>
+    <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" value="application/json"/>
+    <elementParameter field="TABLE" name="QUERY"/>
+    <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
+    <elementParameter field="TEXT" name="SERVICE_NAMESPACE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="SERVICE_ACTIVITY_MONITOR" value="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.TGT_UN"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:xmcdTp3Z0M0hsE+I8FBUxZdtwpvqlkNmUBkjsaJ1tS1p5BES1ftuDCqa"/>
+    <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
+    <elementParameter field="TEXT" name="CORRELATION_VALUE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CHECK_SERVER_IDENTITY" value="true"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter field="CHECK" name="FOLLOW_REDIRECTS" value="false"/>
+    <elementParameter field="CHECK" name="REDIRECT_NON_SAME_HOST" show="false" value="false"/>
+    <elementParameter field="CHECK" name="MAINTAIN_SESSION" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_WEBCLIENT_OPERATION_REPORTING" value="true"/>
+    <elementParameter field="CHECK" name="CONVERT_RESPONSE_TO_DOM" value="true"/>
+    <elementParameter field="CHECK" name="UNWRAP_JSON_REQUEST" value="false"/>
+    <elementParameter field="CHECK" name="WRAP_JSON_RESPONSE" value="true"/>
+    <elementParameter field="CHECK" name="CONVERT_TYPES_TO_STRINGS" value="false"/>
+    <elementParameter field="TABLE" name="HEADERS">
+      <elementValue elementRef="NAME" value="&quot;Content-Type&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;application/json&quot;"/>
+      <elementValue elementRef="NAME" value="&quot;Cookie&quot;"/>
+      <elementValue elementRef="VALUE" value="context.TGT_COOKIE"/>
+      <elementValue elementRef="NAME" value="&quot;CallSettings&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;{\&quot;Company\&quot;:\&quot;&quot;+context.TGT_COMPANY+&quot;\&quot;,\&quot;Plant\&quot;:\&quot;MfgSys\&quot;}&quot;"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="TABLE" name="SERVICE_ACTIVITY_MONITOR_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_CHUNKED_ENCODING" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_TIMEOUT" value="60"/>
+    <elementParameter field="TEXT" name="RECEIVE_TIMEOUT" value="60"/>
+    <elementParameter field="LABEL" name="RECEIVE_TIMEOUT_DESC" value="(See tRESTClient doc. to configure timeouts for Talend Runtime)"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:tAsFDsm32XXjEvxsPJhxuXjBlHxj9v7ynFiOyilg"/>
+    <elementParameter field="TEXT" name="ARRAY_KEYS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRESTClient_1">
+      <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="4048" name="string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="RESPONSE" name="RESPONSE">
+      <column defaultValue="" key="false" length="0" name="statusCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="4048" name="string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FAULT" name="FAULT">
+      <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="992" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#13;&#10;output_row.errorCode = input_row.errorCode;&#13;&#10;output_row.errorMessage = input_row.errorMessage;&#13;&#10;output_row.JSON = row2.string;&#13;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_1">
+      <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="AzureAdlsGen2Output" componentVersion="3" offsetLabelX="7" offsetLabelY="0" posX="1184" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAzureAdlsGen2Output_1"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="YXp1cmUtZGxzLWdlbjIjQXp1cmUjQWRsc0dlbjJPdXRwdXQ"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.connection.authMethod" value="SharedKey"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.connection.accountName" value="context.AZURE_DLS_ACCOUNT_NAME"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.connection.endpointSuffix" value="context.AZURE_ENDPOINT_SUFFIX"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.connection.sharedKey" value="enc:system.encryption.key.v1:np0rP2dhGbIQgQaEH5ohPirV24J6L/0P9qSJGoIasLH7Ha3UYUbjliLV86Dpj22g+ttC20gIEoQ="/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.filesystem" value="context.LOADING_FILESYSTEM"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.blobPath" value="&quot;/LoadError/&quot;+context.ID+&quot;/PODetail&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.format" value="CSV"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.recordDelimiter" value="CRLF"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.fieldDelimiter" value="COMMA"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.csvConfiguration.csvFormatOptions.textEnclosureCharacter" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.csvConfiguration.csvFormatOptions.escapeCharacter" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.encoding" value="UTF8"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.csvConfiguration.csvFormatOptions.useHeader" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.csvConfiguration.csvFormatOptions.header" value="1"/>
+    <elementParameter field="TEXT" name="configuration.$maxBatchSize" value="1000"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.connection.timeout" value="600"/>
+    <elementParameter field="TEXT" name="configuration.blobNameTemplate" value="data-"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value="tAzureAdlsGen2Connection_1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="3"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.connection.__version" show="false" value="-1"/>
+    <metadata connector="FLOW" name="tAzureAdlsGen2Output_1">
+      <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT"/>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.DB_HOST"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.DB_PORT"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.DB_NAME"/>
+    <elementParameter field="TEXT" name="USER" value="context.DB_USER"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Y6bDvPCgASBv+3/DXhCc3j0tbkqjnXrjg9MvOVlL4S9O9vYesin1OuLGFw=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;POLine,PONum,SysRowID &#13;&#10;from Erp.PODetail where Company = '&quot;+context.TGT_COMPANY+&quot;'&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="POLine"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PONum"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SysRowID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="sqlepicortnt"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" defaultValue="" key="false" length="10" name="POLine" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="PONum" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="SysRowID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="UNIQUEIDENTIFIER" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tAzureAdlsGen2Connection_1" offsetLabelX="0" offsetLabelY="0" source="tAzureAdlsGen2Connection_1" target="tAzureAdlsGen2Input_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tAzureAdlsGen2Input_1" offsetLabelX="0" offsetLabelY="0" source="tAzureAdlsGen2Input_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tWriteJSONField_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="SysRowID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RowMod"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tWriteJSONField_1" offsetLabelX="0" offsetLabelY="0" source="tWriteJSONField_1" target="tRESTClient_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="FAULT" label="row3" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_1" target="tJavaRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tAzureAdlsGen2Output_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="8" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAzureAdlsGen2Connection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAzureAdlsGen2Input_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6697c500-7cb2-493b-a1c3-2733f1cf379d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>E8ER+Oe3ADkoHHjSbXj+FB1hamQiwYASnDrvVItc+ObLHCA5yVvcHc2JXZHaMO3zASnTsUG5itET&#13;
+Yoo8Cl6qsg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d6cd3e71-fc90-4b26-b2f8-410a815669b1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/LEoWhY9CwGJIdym1wQ0ifyI5f8IjyNeXQR3Q0Zif4mEsjS8r2Nby6slsxXja3H0xGh40AIS+0Ue&#13;
+byIr5dDUsA==</DigestValue></Reference></SignedInfo><SignatureValue>K5UQUMyckSzp0Z2ZiCyFnxm5SJ1R/yILMi+zAxIsq0s5rmqDQ0f9o6daV0iaFB9OZ3aNl6fa5IjU&#13;
+hsoE7EWErRYgWfSa00ax/4CIjoH54gHoAsNkR8OcGynEpvw8atmJSzCXiNUdT9xa7NRzN848vGqw&#13;
+MF1bN3YnLFi8rx7ysVecAincHhJDJredQNEttMLr9WVvbIcx1KM5yOk+B+cMPISSAsX5As6yZqXG&#13;
+1IatHhUx0wjmMPAwQg72DYCZ+uYlWdi63xlZnJnzKhsRrZMT+GNpmX8+w2mSZ0l7FEwTEVLjSrqE&#13;
+yVeK7uzMuOXgdN8cdAZjiYKs6FnxfGWc6gzQ2Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d6cd3e71-fc90-4b26-b2f8-410a815669b1" Target="#_6697c500-7cb2-493b-a1c3-2733f1cf379d"><Timestamp>2023-04-19 08:09:38</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

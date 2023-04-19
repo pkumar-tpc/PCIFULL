@@ -1,0 +1,74 @@
+{
+  "itemId" : "_G5qMgL2aEe2t24AynoRNfA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_NMW3oIzcEe2Sk9OgWbb7jw",
+    "parameterList" : [ {
+      "id" : "_y21cRp7UEeywxOX3_FSqlQ",
+      "name" : "AZURE_DLS_ACCOUNT_NAME"
+    }, {
+      "id" : "_y21cRZ7UEeywxOX3_FSqlQ",
+      "name" : "AZURE_DLS_SHARED_KEY"
+    }, {
+      "id" : "_y21cR57UEeywxOX3_FSqlQ",
+      "name" : "AZURE_ENDPOINT_SUFFIX"
+    }, {
+      "id" : "_wN164JGyEe2_Sszvpw5MDg",
+      "name" : "campaignID"
+    }, {
+      "id" : "_wN164pGyEe2_Sszvpw5MDg",
+      "name" : "customAssignee"
+    }, {
+      "id" : "_DTFyYPEeEeyCCdE7-Numhw",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_DTFyYfEeEeyCCdE7-Numhw",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_DTFyY_EeEeyCCdE7-Numhw",
+      "name" : "DB_PASS"
+    }, {
+      "id" : "_DTFyZPEeEeyCCdE7-Numhw",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_DTFyYvEeEeyCCdE7-Numhw",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_4wZUUIzcEe2Sk9OgWbb7jw",
+      "name" : "Email"
+    }, {
+      "id" : "_R0KngLDmEeyyUe2r0oldnA",
+      "name" : "ID"
+    }, {
+      "id" : "_-kmBkKUvEeyCfrL8ZX26DA",
+      "name" : "LOADING_FILESYSTEM"
+    }, {
+      "id" : "_eVzcQaXnEeyjHNzTRCwJ2w",
+      "name" : "Password"
+    }, {
+      "id" : "_zztaULzHEeyg1M6VtV8LBw",
+      "name" : "Plant"
+    }, {
+      "id" : "_wN1645GyEe2_Sszvpw5MDg",
+      "name" : "Priority"
+    }, {
+      "id" : "_wN164ZGyEe2_Sszvpw5MDg",
+      "name" : "STW_URL"
+    }, {
+      "id" : "_nNx1sKBZEey5stacru9NAQ",
+      "name" : "TGT_COMPANY"
+    }, {
+      "id" : "_1m6MwpFvEe2XJN6xM_0U0A",
+      "name" : "TGT_PW"
+    }, {
+      "id" : "_1m6MwZFvEe2XJN6xM_0U0A",
+      "name" : "TGT_UN"
+    }, {
+      "id" : "_1m6MwJFvEe2XJN6xM_0U0A",
+      "name" : "TGT_URL"
+    }, {
+      "id" : "_OJKQwKUyEeyCfrL8ZX26DA",
+      "name" : "URL"
+    } ]
+  } ]
+}

@@ -1,0 +1,98 @@
+{
+  "itemId" : "_XMalwLOIEe2hpbBWHLjuUA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_nxnYwPF9EeywefkG1_HSCA",
+    "parameterList" : [ {
+      "id" : "_y21cRp7UEeywxOX3_FSqlQ",
+      "name" : "AZURE_DLS_ACCOUNT_NAME"
+    }, {
+      "id" : "_y21cRZ7UEeywxOX3_FSqlQ",
+      "name" : "AZURE_DLS_SHARED_KEY"
+    }, {
+      "id" : "_y21cR57UEeywxOX3_FSqlQ",
+      "name" : "AZURE_ENDPOINT_SUFFIX"
+    }, {
+      "id" : "_DTFyYPEeEeyCCdE7-Numhw",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_DTFyYfEeEeyCCdE7-Numhw",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_DTFyY_EeEeyCCdE7-Numhw",
+      "name" : "DB_PASS"
+    }, {
+      "id" : "_DTFyZPEeEeyCCdE7-Numhw",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_DTFyYvEeEeyCCdE7-Numhw",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_R0KngLDmEeyyUe2r0oldnA",
+      "name" : "ID"
+    }, {
+      "id" : "_-kmBkKUvEeyCfrL8ZX26DA",
+      "name" : "LOADING_FILESYSTEM"
+    }, {
+      "id" : "_zztaULzHEeyg1M6VtV8LBw",
+      "name" : "Plant"
+    }, {
+      "id" : "_Fuvq0qwlEeyYS7rwE5t2Kg",
+      "name" : "SRC_COMPANY"
+    }, {
+      "id" : "_EHBHEEltEe2WkZ1lB1eZTg",
+      "name" : "SRC_COMPANY_SEG"
+    }, {
+      "id" : "_Fuvq0awlEeyYS7rwE5t2Kg",
+      "name" : "SRC_COOKIE"
+    }, {
+      "id" : "_5Ty6UAQ6Ee2rcK-tWnKQ3Q",
+      "name" : "SRC_DB_HOST"
+    }, {
+      "id" : "_5Ty6UQQ6Ee2rcK-tWnKQ3Q",
+      "name" : "SRC_DB_NAME"
+    }, {
+      "id" : "_5Ty6UwQ6Ee2rcK-tWnKQ3Q",
+      "name" : "SRC_DB_PASS"
+    }, {
+      "id" : "_5Ty6VAQ6Ee2rcK-tWnKQ3Q",
+      "name" : "SRC_DB_PORT"
+    }, {
+      "id" : "_5Ty6UgQ6Ee2rcK-tWnKQ3Q",
+      "name" : "SRC_DB_USER"
+    }, {
+      "id" : "_Fuvq1KwlEeyYS7rwE5t2Kg",
+      "name" : "SRC_PW"
+    }, {
+      "id" : "_Fuvq06wlEeyYS7rwE5t2Kg",
+      "name" : "SRC_UN"
+    }, {
+      "id" : "_Fuvq0KwlEeyYS7rwE5t2Kg",
+      "name" : "SRC_URL"
+    }, {
+      "id" : "_nNx1sKBZEey5stacru9NAQ",
+      "name" : "TGT_COMPANY"
+    }, {
+      "id" : "_EHBHEUltEe2WkZ1lB1eZTg",
+      "name" : "TGT_COMPANY_SEG"
+    }, {
+      "id" : "_eVzcQqXnEeyjHNzTRCwJ2w",
+      "name" : "TGT_COOKIE"
+    }, {
+      "id" : "_eVzcQaXnEeyjHNzTRCwJ2w",
+      "name" : "TGT_PW"
+    }, {
+      "id" : "_eVzcQKXnEeyjHNzTRCwJ2w",
+      "name" : "TGT_UN"
+    }, {
+      "id" : "_OJKQwKUyEeyCfrL8ZX26DA",
+      "name" : "TGT_URL"
+    }, {
+      "id" : "_RVrDsLGhEeyTKYCl7Add0w",
+      "name" : "TOP_ID"
+    }, {
+      "id" : "_RVrDsbGhEeyTKYCl7Add0w",
+      "name" : "TOP_VALUE"
+    } ]
+  } ]
+}
