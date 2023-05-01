@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_vaFa8JsvEe2Tk6NV3eo0NA" name="AZURE_DLS_ACCOUNT_NAME" prompt="configuration.accountName?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="trexonerpstorage"/>
-    <contextParameter comment="" internalId="_vaFa8ZsvEe2Tk6NV3eo0NA" name="AZURE_DLS_SHARED_KEY" prompt="configuration.sharedKey?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:p7zMhYz5641xOeJTqLd9sM/cekrN0F9goBZQRucRZgFwPDsJtAiuY0IRgmJXPuxPCWCAA0EdaOOtchIwR+vjHXO/rKF+S2x5xassTNILuztZrtg4EFn1XZhNSa8P9dZ3J41iSNzFOEp3BXzddu/KYHrm/O8="/>
+    <contextParameter comment="" internalId="_vaFa8ZsvEe2Tk6NV3eo0NA" name="AZURE_DLS_SHARED_KEY" prompt="configuration.sharedKey?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:gBbk4ASAMzntkkY01Z/QDOX2Hpu4fIKZ/nX6xYumKo3oaVWetuKtXSFv61jHit5MH9SZ7AbGDw8YRbFvVhYhmTcm9VhXbOHr4K1HWABOLuRPTXgzzZbVJSZlU0IeTaZlehTwUfYkBvJjMivjfOJ0faQflMg="/>
     <contextParameter comment="" internalId="_vaFa8psvEe2Tk6NV3eo0NA" name="AZURE_ENDPOINT_SUFFIX" prompt="configuration.endpointSuffix?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="dfs.core.windows.net"/>
     <contextParameter comment="" internalId="_vaFa85svEe2Tk6NV3eo0NA" name="DB_HOST" prompt="DB_HOST?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="epicor-sql-test"/>
     <contextParameter comment="" internalId="_vaFa9JsvEe2Tk6NV3eo0NA" name="DB_NAME" prompt="DB_NAME?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Epicor700test"/>
-    <contextParameter comment="" internalId="_vaFa9ZsvEe2Tk6NV3eo0NA" name="DB_PASS" prompt="DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:zVx+4cnN+BFeF5EV6Uza0zCZkf/AZqrNEEwTvnq2Wtsh2saxtS+I5ObqeRo4RDLN45UjDbaXLEozxsE="/>
+    <contextParameter comment="" internalId="_vaFa9ZsvEe2Tk6NV3eo0NA" name="DB_PASS" prompt="DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:C709bbcHJ2G7R/e8hw78mdRUWieZWA/A4W7stxUPrbUeO9tkPBPSvE5u3/qcahN6rpDT7Re4NiIgOgM="/>
     <contextParameter comment="" internalId="_vaFa9psvEe2Tk6NV3eo0NA" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="1433"/>
     <contextParameter comment="" internalId="_vaFa95svEe2Tk6NV3eo0NA" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="TalendSQL"/>
     <contextParameter comment="" internalId="_vaFa-JsvEe2Tk6NV3eo0NA" name="ID" prompt="ID?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PRITest"/>
@@ -16,7 +16,7 @@
     <contextParameter comment="" internalId="_vaFa_ZsvEe2Tk6NV3eo0NA" name="SRC_COOKIE" prompt="SRC_COOKIE?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value=""/>
     <contextParameter comment="" internalId="_vaFa_psvEe2Tk6NV3eo0NA" name="SRC_DB_HOST" prompt="SRC_DB_HOST?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="epicor-sql-test"/>
     <contextParameter comment="" internalId="_vaFa_5svEe2Tk6NV3eo0NA" name="SRC_DB_NAME" prompt="SRC_DB_NAME?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Epicor700Test"/>
-    <contextParameter comment="" internalId="_vaFbAJsvEe2Tk6NV3eo0NA" name="SRC_DB_PASS" prompt="SRC_DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:wQqG+fyLOZAMm4vB5yT3hpiarQtOoeVyo1RLk9hr8wjGIO+1+Pd12Ioc15rkj+zt6a/u1E70lkuaA2g="/>
+    <contextParameter comment="" internalId="_vaFbAJsvEe2Tk6NV3eo0NA" name="SRC_DB_PASS" prompt="SRC_DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:TihtFwSZtLJpPs9mR1TapxN+b/uxdhMwjNIf/p4+tOPlmBefz7yrG9CDZOGFHTiiA4NO1Cf5ZpURPW0="/>
     <contextParameter comment="" internalId="_vaFbAZsvEe2Tk6NV3eo0NA" name="SRC_DB_PORT" prompt="SRC_DB_PORT?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="1433"/>
     <contextParameter comment="" internalId="_vaFbApsvEe2Tk6NV3eo0NA" name="SRC_DB_USER" prompt="SRC_DB_USER?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="TalendSQL"/>
     <contextParameter comment="" internalId="_vaFbA5svEe2Tk6NV3eo0NA" name="SRC_PW" prompt="SRC_PW?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="8c^S^bd9Cs8v"/>
@@ -34,7 +34,7 @@
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="32"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="4"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -74,7 +74,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:4CygBxAcIlDkeKxqDtZa+WIAKKK9wUMuQtBbPoZ4"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ZJmHhZL5CQazsD2yFZwBBQl7JVuzuuKSf6KMMtFr"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -89,7 +89,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/TPC/Talend/Talend-Studio-20211109_1610-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend-Studio-20211109_1610-V8.0.1/workspace6/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -109,7 +109,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:/nNoP/lVHqB99sCKZpBePD9iw9edf4HRqbs3QS3w"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:PESURV9V2xGZwhfJKRBbgMEUvAmt7zRtO1Xq2P7a"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -150,7 +150,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.authMethod" value="SharedKey"/>
     <elementParameter field="TEXT" name="configuration.accountName" value="context.AZURE_DLS_ACCOUNT_NAME"/>
     <elementParameter field="TEXT" name="configuration.endpointSuffix" value="context.AZURE_ENDPOINT_SUFFIX"/>
-    <elementParameter field="PASSWORD" name="configuration.sharedKey" value="enc:system.encryption.key.v1:k9WrdgSVD8xryDW9mVGFbbQdDRKhdQrIHnGpCeJCXeEwAvziEJJDV2Oj8hllMi68sBERJiFInfk="/>
+    <elementParameter field="PASSWORD" name="configuration.sharedKey" value="enc:system.encryption.key.v1:FxlUjStb02x31aMH4IYO9MYq8EEO4jJUhi8qNh/oGJRI+es+UBmA4bwMZiotDO+tD0vXObXvqeo="/>
     <elementParameter field="TEXT" name="configuration.timeout" value="600"/>
     <elementParameter field="TECHNICAL" name="configuration.__version" show="false" value="-1"/>
     <metadata connector="FLOW" name="tAzureAdlsGen2Connection_1"/>
@@ -745,16 +745,25 @@
       <column comment="" key="false" length="5" name="FAI_c" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
     </metadata>
     <metadata connector="FLOW" name="out1">
-      <column comment="" key="false" length="13" name="PartNum" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="RevisionNum" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="OpCode" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="OprSeq" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="36" name="SysRowID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="UNIQUEIDENTIFIER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="currJobNum" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="currAsmSeq" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceFile" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceQuote" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceLine" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceJob" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceAsm" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourcePart" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceRev" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceAltMethod" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="resequence" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="useMethodForParts" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="getCostsFromInv" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="getCostsFromTemp" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
-      <outputTables activateColumnNameFilter="true" activateCondensedTool="true" columnNameFilter="" minimized="true" name="Create" sizeState="INTERMEDIATE">
+      <outputTables activateColumnNameFilter="true" activateCondensedTool="true" columnNameFilter="" name="Create" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="context.TGT_COMPANY" name="Company" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.JobClosed " name="JobClosed" nullable="true" type="id_Boolean"/>
         <mapperTableEntries expression="row1.ClosedDate " name="ClosedDate" nullable="true" type="id_Date"/>
@@ -1029,13 +1038,22 @@
         <mapperTableEntries expression="row1.FAI_c " name="FAI_c" nullable="true" type="id_Boolean"/>
       </outputTables>
       <outputTables activateColumnNameFilter="true" columnNameFilter="" name="out1" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row3.PartNum " name="PartNum" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row3.RevisionNum " name="RevisionNum" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row3.OpCode " name="OpCode" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row3.OprSeq " name="OprSeq" nullable="true" type="id_Integer"/>
-        <mapperTableEntries expression="row5.SysRowID " name="SysRowID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.JobNum " name="currJobNum" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="0" name="currAsmSeq" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="&quot;&quot;" name="sourceFile" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="0" name="sourceQuote" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="0" name="sourceLine" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="&quot;&quot;" name="sourceJob" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="0" name="sourceAsm" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.PartNum " name="sourcePart" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.RevisionNum " name="sourceRev" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="sourceAltMethod" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="true" name="resequence" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="true" name="useMethodForParts" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="true" name="getCostsFromInv" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries expression="true" name="getCostsFromTemp" nullable="true" type="id_Boolean"/>
       </outputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" minimized="true" name="row1" sizeState="INTERMEDIATE">
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="Company" nullable="true" type="id_String"/>
         <mapperTableEntries name="JobClosed" nullable="true" type="id_Boolean"/>
         <mapperTableEntries name="ClosedDate" nullable="true" type="id_Date"/>
@@ -1601,7 +1619,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;EpicorAcquiTest&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;TalendSQL&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:z+oo4+uCYiaZUQFMPj6hOBOWNoY+xSNZlYBuBj8k0lr1ceL9ebHv7n5cwC5z0ybA30okQKzF7/pwNBbx"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:LSIOADRuXN7Ki2SR32Wkr4JaKDh9GRkGXqiJ0jFuDl9WyAjOKIslPXr2EkTF5APIte0zIbQfUceP8Cxh"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2006,7 +2024,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;EpicorAcquiTest&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;TalendSQL&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:D5czr6UCRrU+VoxqLKG+sVEdZuljzYxxMuaxgB0umG+mu6GLFENj8iBIVbFwPgDfFXJEggac1A0aJrIi"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:uHJcnKFvQBZcmVgJ9adhAQpHSZ2ihEgBx+JnBG08AAXKG/+2Lu8Fu3SBGHocISKMqV1v7/DiWiuoncXs"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -3889,7 +3907,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.TGT_UN"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:wAIdalIVUTJCZf8PUxlcaqwrL+paRGJFFWaxpj/qv8HTNhzGSfC7I2oo"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:T1Tw5d533rPTGrxjRXIF1DppspemTCYIplNYwP1bjkZObhrvBEQC6vJG"/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -3924,7 +3942,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:Vj9/YWCJ7KWRq0Qy8mww+67dkFzcXhpDEJjFErB2"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:yd9klkHTguwfwnGcuAav9h/oL8rnyChhpMRiCmUY"/>
     <elementParameter field="TEXT" name="ARRAY_KEYS" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRESTClient_2">
@@ -3958,7 +3976,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.connection.authMethod" value="SharedKey"/>
     <elementParameter field="TEXT" name="configuration.dataSet.connection.accountName" value="context.AZURE_DLS_ACCOUNT_NAME"/>
     <elementParameter field="TEXT" name="configuration.dataSet.connection.endpointSuffix" value="context.AZURE_ENDPOINT_SUFFIX"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.connection.sharedKey" value="enc:system.encryption.key.v1:bu0HWYTVuSy9pR1juskTa49jpZDelriae9yI+DdJjDnoQhS1figIUEq5xiRexX92pn231c7JgRI="/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.connection.sharedKey" value="enc:system.encryption.key.v1:m0e/uqN9AF81iDU3RsLbyoKXPDaZtHsbaxrPLib0lrwSIkETVstUCDcEaHwDD1u/BEhw5fsYKbM="/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.filesystem" value="context.LOADING_FILESYSTEM"/>
     <elementParameter field="TEXT" name="configuration.dataSet.blobPath" value="&quot;LoadError/&quot;+context.ID+&quot;/Customer&quot;"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.format" value="CSV"/>
@@ -3996,11 +4014,20 @@
     <elementParameter field="CHECK" name="HASH_KEY_FROM_INPUT_CONNECTOR" show="false" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tHashOutput_1">
-      <column comment="" key="false" length="13" name="PartNum" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="RevisionNum" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="OpCode" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="OprSeq" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="36" name="SysRowID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="UNIQUEIDENTIFIER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="currJobNum" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="currAsmSeq" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceFile" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceQuote" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceLine" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceJob" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceAsm" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourcePart" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceRev" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceAltMethod" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="resequence" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="useMethodForParts" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="getCostsFromInv" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="getCostsFromTemp" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tHashInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="512">
@@ -4011,11 +4038,20 @@
     <elementParameter field="CHECK" name="RELEASE_CACHE" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tHashInput_1">
-      <column comment="" key="false" length="13" name="PartNum" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="RevisionNum" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="OpCode" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="OprSeq" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="36" name="SysRowID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="UNIQUEIDENTIFIER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="currJobNum" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="currAsmSeq" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceFile" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceQuote" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceLine" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceJob" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceAsm" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourcePart" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceRev" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="sourceAltMethod" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="resequence" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="useMethodForParts" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="getCostsFromInv" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="getCostsFromTemp" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tWriteJSONField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="512">
@@ -4027,26 +4063,76 @@
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="main"/>
       <elementValue elementRef="ORDER" value="1"/>
-      <elementValue elementRef="PATH" value="/rootTag/ipOPCode"/>
-      <elementValue elementRef="COLUMN" value="OpCode"/>
+      <elementValue elementRef="PATH" value="/rootTag/currAsmSeq"/>
+      <elementValue elementRef="COLUMN" value="currAsmSeq"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="3"/>
-      <elementValue elementRef="PATH" value="/rootTag/ipNewOprSeq"/>
-      <elementValue elementRef="COLUMN" value="OprSeq"/>
+      <elementValue elementRef="PATH" value="/rootTag/sourceFile"/>
+      <elementValue elementRef="COLUMN" value="sourceFile"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="4"/>
-      <elementValue elementRef="PATH" value="/rootTag/ipReturn"/>
-      <elementValue elementRef="COLUMN" value=""/>
-      <elementValue elementRef="VALUE" value="true"/>
+      <elementValue elementRef="PATH" value="/rootTag/sourceQuote"/>
+      <elementValue elementRef="COLUMN" value="sourceQuote"/>
+      <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="5"/>
+      <elementValue elementRef="PATH" value="/rootTag/sourceLine"/>
+      <elementValue elementRef="COLUMN" value="sourceLine"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="6"/>
+      <elementValue elementRef="PATH" value="/rootTag/sourceJob"/>
+      <elementValue elementRef="COLUMN" value="sourceJob"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="7"/>
+      <elementValue elementRef="PATH" value="/rootTag/sourceAsm"/>
+      <elementValue elementRef="COLUMN" value="sourceAsm"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="8"/>
+      <elementValue elementRef="PATH" value="/rootTag/sourcePart"/>
+      <elementValue elementRef="COLUMN" value="sourcePart"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="9"/>
+      <elementValue elementRef="PATH" value="/rootTag/sourceRev"/>
+      <elementValue elementRef="COLUMN" value="sourceRev"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="10"/>
+      <elementValue elementRef="PATH" value="/rootTag/sourceAltMethod"/>
+      <elementValue elementRef="COLUMN" value="sourceAltMethod"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="11"/>
+      <elementValue elementRef="PATH" value="/rootTag/resequence"/>
+      <elementValue elementRef="COLUMN" value="resequence"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="12"/>
+      <elementValue elementRef="PATH" value="/rootTag/useMethodForParts"/>
+      <elementValue elementRef="COLUMN" value="useMethodForParts"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="13"/>
+      <elementValue elementRef="PATH" value="/rootTag/getCostsFromInv"/>
+      <elementValue elementRef="COLUMN" value="getCostsFromInv"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="14"/>
+      <elementValue elementRef="PATH" value="/rootTag/getCostsFromTemp"/>
+      <elementValue elementRef="COLUMN" value="getCostsFromTemp"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="15"/>
     </elementParameter>
     <elementParameter field="TABLE" name="GROUP" show="false"/>
     <elementParameter field="TABLE" name="LOOP" show="false">
-      <elementValue elementRef="PATH" value="/rootTag/ipJobAsmblRowID"/>
-      <elementValue elementRef="COLUMN" value="SysRowID"/>
+      <elementValue elementRef="PATH" value="/rootTag/currJobNum"/>
+      <elementValue elementRef="COLUMN" value="currJobNum"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="main"/>
       <elementValue elementRef="ORDER" value="2"/>
@@ -4068,7 +4154,7 @@
   <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="-4" offsetLabelY="0" posX="864" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_1"/>
     <elementParameter field="TEXT" name="URL" value="context.TGT_URL"/>
-    <elementParameter field="TEXT" name="PATH" value="&quot;Erp.BO.JobEntrySvc/AddOperation&quot;"/>
+    <elementParameter field="TEXT" name="PATH" value="&quot;Erp.BO.JobEntrySvc/GetDetails&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="POST"/>
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json"/>
     <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" value="application/json"/>
@@ -4080,7 +4166,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.TGT_UN"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:skJP7bN7L34PWdVI+SsBDXU+Ap9kLGjzQrzrVoqiuvxzEPYgOEuB5wDW"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:3V8QM30rZI9XqoUrMzU3Gg7bLSN8jPAMyPN1+01Mu0db/H3EeSfZe2hA"/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -4115,7 +4201,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:nofmWEOIfSTeZ/e15DeS3Vr/SEbxywYM+F50qAus"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:Sl0/C+2FpZmqtkkbgFOiI2qaxQwRWFzq+hsbNJWJ"/>
     <elementParameter field="TEXT" name="ARRAY_KEYS" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRESTClient_1">
@@ -4149,9 +4235,9 @@
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.connection.authMethod" value="SharedKey"/>
     <elementParameter field="TEXT" name="configuration.dataSet.connection.accountName" value="context.AZURE_DLS_ACCOUNT_NAME"/>
     <elementParameter field="TEXT" name="configuration.dataSet.connection.endpointSuffix" value="context.AZURE_ENDPOINT_SUFFIX"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.connection.sharedKey" value="enc:system.encryption.key.v1:AmftxM7UAaFzqG/ye8d9lQ03/0aEqelzs0fC04cBxxmQF7Jmme9YD8+raGqlDW8QXeR5/k95z98="/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.connection.sharedKey" value="enc:system.encryption.key.v1:DZkh+pt/a2c2zgDYC9RVeQCvqRd7M0ItHQTqgq0QmRYecNr+4bhWsMJ4liR/g+rrRc2akwj8EPI="/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.filesystem" value="context.LOADING_FILESYSTEM"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.blobPath" value="&quot;LoadError/&quot;+context.ID+&quot;/Customer&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.blobPath" value="&quot;LoadError/&quot;+context.ID+&quot;/JobDetails&quot;"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.format" value="CSV"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.recordDelimiter" value="CRLF"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.fieldDelimiter" value="COMMA"/>
@@ -4184,7 +4270,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.DB_NAME"/>
     <elementParameter field="TEXT" name="USER" value="context.DB_USER"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:e6RwKtf3MQ7CNh4IY05qeLKLiHKSWhljHMBQU+1K3OvSfSNV24/zDTFiGQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:YSCYKAd8PMtEcinn3BO2aB6leZxnE+CxXMKGv7AFY58/jmxCHvoIrQqMSw=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
@@ -4213,6 +4299,50 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Create"/>
   </connection>
   <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tHashOutput_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="useMethodForParts"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceAsm"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceJob"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceRev"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceFile"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceQuote"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceAltMethod"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourcePart"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="resequence"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="currJobNum"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceLine"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="getCostsFromTemp"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="getCostsFromInv"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="currAsmSeq"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
   </connection>
@@ -4245,6 +4375,48 @@
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
       <elementValue elementRef="TRACE_COLUMN" value="OpCode"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="useMethodForParts"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceAsm"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceJob"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceRev"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceFile"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceQuote"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceAltMethod"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourcePart"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="resequence"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="currJobNum"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sourceLine"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="getCostsFromTemp"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="getCostsFromInv"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="currAsmSeq"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
@@ -4286,13 +4458,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3b661c3b-50fd-4a49-8539-ab95ec29397c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WSbieRdUYXl18NRs3/y36JwkPQAmbDo80GIXI3d+OF7IXFJTX1S64NJjiYhmvXUrWtsfMRU+x5tD&#13;
-TZUTKarBgg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1be6edec-a9a9-4cab-ac81-dd93a0ba78f0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mZax1ecc4RVlf8yGzYH7OFHMVVi0ub7bRyt0nKlDZHAOOvSYheo7GWTEY/fn0ZCt2XDKg5gIqa1v&#13;
-gbkk3mOLGQ==</DigestValue></Reference></SignedInfo><SignatureValue>RLL+PTjrGqtnXoenG+mPWp/684k4AkRsPDlm2u3QjLTa8h+/63AHYjdwcZVchT4CBzBTohq6QRTj&#13;
-jgcuvFaQN9aHeYOl/J7lX5yaFN81CEmL03TxdeR/ZoTuzFOm+w8MzfX/+YNlymgXYKuzxvm+ylSt&#13;
-lzliHPACsHcLx1cojIkcSY4EfkZMMWev9nLvPkvTbvwsQqNuGt7QPYYEWamP8qRl+rhni8lOSOii&#13;
-Gxab4ZZvOOTrKMUW6HiDK9W+p6WwKiYyeXR2+T45J+SIxfHhkTFk96BuPNwjHgqQiKIdsSRL1UKN&#13;
-bppJp2dovF6QAigXxFefKX6/cPvsY0P1NB8OGg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_35786e74-b4de-4d36-80cc-5c434f74b446"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LvNWooL0GGI/T8wdUrMuSRvpBfjJ7iXnMg38gujrsJ3ccHofxeB/MuxsAj+V+cTqVHLaZ9fisuKv&#13;
+1tBfXnJ2oQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4d3b6bac-75b3-4809-b4a4-0b2948833a40"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wexZ2DVeICszxWLU5MUxgF5qmsAZrCHxIein7+ehct48BfzPBASd6m8sD0oW/djxd6QGE9dl/Fkw&#13;
+BhQmCaNFcA==</DigestValue></Reference></SignedInfo><SignatureValue>dQZZlF+a+TE4QclgUm7iAygUSm7zzk4i3k45JyOguZ8Rrv/o2u4LeQ1lf0+dONcQ62Ev5EqYfa20&#13;
+n4Zpkh1SAIOFf679OaWBm4b/wO1I3wFLVJmEzfW74UpeMQ6Aaf8YCiiutPgeOQp8z8Cw/ergTb4K&#13;
+GZrCpBYlE/kI0VBxK8jwsn8KdVulk467Cs0UsfWa81L0Uc/+kE4NaZbxeP5JXRrAXOyV8KfjhsY0&#13;
+whdr2aK1ca/oZ7UARbB4m5EtbILr/onDY/N4mYStnxgBb7r7iu9RVDzkgzB4F43ZedxU/a+jd4Ez&#13;
+z5XyxQD/OpYr2xfgaUBd1VctAQ527AS8k4XrBw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -4314,4 +4486,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1be6edec-a9a9-4cab-ac81-dd93a0ba78f0" Target="#_3b661c3b-50fd-4a49-8539-ab95ec29397c"><Timestamp>2023-04-19 08:09:40</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4d3b6bac-75b3-4809-b4a4-0b2948833a40" Target="#_35786e74-b4de-4d36-80cc-5c434f74b446"><Timestamp>2023-04-19 12:58:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

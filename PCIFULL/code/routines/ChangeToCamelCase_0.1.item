@@ -38,6 +38,7 @@ public class ChangeToCamelCase {
 	public static final List<String>  StringToNotImpute =  Arrays.asList("&", "PO",".");
 	
     public static String  changeString(String text) {
+    	text = text == null? "":text;
     	String[] words = text.split(" ");
     	StringBuilder builder = new StringBuilder();
     	for (int i = 0; i < words.length; i++) {

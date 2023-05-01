@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_SyykgM0uEe26LZqPUGjVwg" name="AZURE_DLS_ACCOUNT_NAME" prompt="configuration.accountName?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="trexonerpstorage"/>
-    <contextParameter comment="" internalId="_Syykgc0uEe26LZqPUGjVwg" name="AZURE_DLS_SHARED_KEY" prompt="configuration.sharedKey?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:hqxciKt+YZvPnHCFg/LPRMMosSIMe45t4izLcIzdYlio6NyNYFAdbBwiejYwnXM2giEjVk0rukYEcwhcUebpiGLyJZIObIxAyAvOw2HMj956YRlT+I9ifIP9JJ0PCQVVteClognxBYMZeObkfJPkagQeR6A="/>
+    <contextParameter comment="" internalId="_Syykgc0uEe26LZqPUGjVwg" name="AZURE_DLS_SHARED_KEY" prompt="configuration.sharedKey?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:WXNx3eWL/EpMZCgKSeRr7X53k5xHGifBw0yqvsm4dz1j9f91cp18iBgUiLPc1WGkZTImpD2ChUcPSEtBb3C2BqANRR5Ow4xshXXF2pexU1qvlbdBtpwKuW88jAVwoSn0CCcAPbQiN4w7GdgOgj65Yfi6J0k="/>
     <contextParameter comment="" internalId="_Syykgs0uEe26LZqPUGjVwg" name="AZURE_ENDPOINT_SUFFIX" prompt="configuration.endpointSuffix?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="dfs.core.windows.net"/>
     <contextParameter comment="" internalId="_Syykg80uEe26LZqPUGjVwg" name="DB_HOST" prompt="DB_HOST?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="epicor-sql-test"/>
     <contextParameter comment="" internalId="_SyykhM0uEe26LZqPUGjVwg" name="DB_NAME" prompt="DB_NAME?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Epicor700test"/>
-    <contextParameter comment="" internalId="_Syykhc0uEe26LZqPUGjVwg" name="DB_PASS" prompt="DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:kB0XXs/gFQStWZFhotPp7D2hiHDMr5RoQ2oMzmBrItO3neXVlAUcx6IixSHMAYDbumiv54EOoSEYi4U="/>
+    <contextParameter comment="" internalId="_Syykhc0uEe26LZqPUGjVwg" name="DB_PASS" prompt="DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:zPioFWOthqLbN9oQdz3os+4YgdfwPUV0pcgeztFQoN7CUSdkjf8cvGiPo2EjPPUCWwxoXaSPGORDs9Q="/>
     <contextParameter comment="" internalId="_Syykhs0uEe26LZqPUGjVwg" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="1433"/>
     <contextParameter comment="" internalId="_Syykh80uEe26LZqPUGjVwg" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="TalendSQL"/>
-    <contextParameter comment="" internalId="_SyykiM0uEe26LZqPUGjVwg" name="ID" prompt="ID?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Vendor_Trexon_19012023"/>
-    <contextParameter comment="" internalId="_Syykic0uEe26LZqPUGjVwg" name="LOADING_FILESYSTEM" prompt="configuration.dataSet.filesystem?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="golive"/>
+    <contextParameter comment="" internalId="_SyykiM0uEe26LZqPUGjVwg" name="ID" prompt="ID?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PRITest"/>
+    <contextParameter comment="" internalId="_Syykic0uEe26LZqPUGjVwg" name="LOADING_FILESYSTEM" prompt="configuration.dataSet.filesystem?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="demo"/>
     <contextParameter comment="" internalId="_Syykis0uEe26LZqPUGjVwg" name="Plant" prompt="Plant?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="MfgSys"/>
-    <contextParameter comment="" internalId="_Syyki80uEe26LZqPUGjVwg" name="SRC_COMPANY" prompt="SRC_COMPANY?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PCI"/>
+    <contextParameter comment="" internalId="_Syyki80uEe26LZqPUGjVwg" name="SRC_COMPANY" prompt="SRC_COMPANY?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PCIFULL"/>
     <contextParameter comment="" internalId="_SyykjM0uEe26LZqPUGjVwg" name="SRC_COMPANY_SEG" prompt="SRC_COMPANY_SEG?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="97"/>
     <contextParameter comment="" internalId="_Syykjc0uEe26LZqPUGjVwg" name="SRC_COOKIE" prompt="SRC_COOKIE?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Syykjs0uEe26LZqPUGjVwg" name="SRC_DB_HOST" prompt="SRC_DB_HOST?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="epicor-sql-prod"/>
-    <contextParameter comment="" internalId="_Syykj80uEe26LZqPUGjVwg" name="SRC_DB_NAME" prompt="SRC_DB_NAME?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Epicor700Prod"/>
-    <contextParameter comment="" internalId="_SyykkM0uEe26LZqPUGjVwg" name="SRC_DB_PASS" prompt="SRC_DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:1uWDtkjjKWYm3EBJ7ardEMzUYH7fAnSUPgpx0oeP1dSs25m7Cy0LL2X5qf8Hb09zASCS7E0dlrWAo8k="/>
+    <contextParameter comment="" internalId="_Syykjs0uEe26LZqPUGjVwg" name="SRC_DB_HOST" prompt="SRC_DB_HOST?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="epicor-sql-test"/>
+    <contextParameter comment="" internalId="_Syykj80uEe26LZqPUGjVwg" name="SRC_DB_NAME" prompt="SRC_DB_NAME?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Epicor700Test"/>
+    <contextParameter comment="" internalId="_SyykkM0uEe26LZqPUGjVwg" name="SRC_DB_PASS" prompt="SRC_DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:VgKWowJKT9ztSa0I4NKBMOEJLI6ZdZJUTtyMgGo7v6NPnWiPjfbnOm7Qhbyhe1wlt2Oq78HwOPZ8Gvo="/>
     <contextParameter comment="" internalId="_Syykkc0uEe26LZqPUGjVwg" name="SRC_DB_PORT" prompt="SRC_DB_PORT?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="1433"/>
     <contextParameter comment="" internalId="_Syykks0uEe26LZqPUGjVwg" name="SRC_DB_USER" prompt="SRC_DB_USER?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="TalendSQL"/>
-    <contextParameter comment="" internalId="_Syykk80uEe26LZqPUGjVwg" name="SRC_PW" prompt="SRC_PW?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="dpipeline"/>
+    <contextParameter comment="" internalId="_Syykk80uEe26LZqPUGjVwg" name="SRC_PW" prompt="SRC_PW?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="8c^S^bd9Cs8v"/>
     <contextParameter comment="" internalId="_SyyklM0uEe26LZqPUGjVwg" name="SRC_UN" prompt="SRC_UN?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="pkumar"/>
-    <contextParameter comment="" internalId="_Syyklc0uEe26LZqPUGjVwg" name="SRC_URL" prompt="SRC_URL?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="https://epicor-app-test.tpcwire.com/Epicor700Prod/api/v1/"/>
-    <contextParameter comment="" internalId="_Syykls0uEe26LZqPUGjVwg" name="TGT_COMPANY" prompt="TGT_COMPANY?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PCIFULL"/>
+    <contextParameter comment="" internalId="_Syyklc0uEe26LZqPUGjVwg" name="SRC_URL" prompt="SRC_URL?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="https://epicor-app-test.tpcwire.com/Epicor700Test/api/v1/"/>
+    <contextParameter comment="" internalId="_Syykls0uEe26LZqPUGjVwg" name="TGT_COMPANY" prompt="TGT_COMPANY?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PRI"/>
     <contextParameter comment="" internalId="_Syykl80uEe26LZqPUGjVwg" name="TGT_COMPANY_SEG" prompt="TGT_COMPANY_SEG?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="98"/>
     <contextParameter comment="" internalId="_SyykmM0uEe26LZqPUGjVwg" name="TGT_COOKIE" prompt="TGT_COOKIE?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value=""/>
     <contextParameter comment="" internalId="_Syykmc0uEe26LZqPUGjVwg" name="TGT_PW" prompt="TGT_PW?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="8c^S^bd9Cs8v"/>
@@ -74,7 +74,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:7GQgKlPftHpOzRkf4UOWn+HBC42UrmUEGetqe9mc"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:8EwhjyPS1GhSX33k5B3+9QK6eTZl0wk5XRXruvRf"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -89,7 +89,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/TPC/Talend/Talend-Studio-20211109_1610-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend-Studio-20211109_1610-V8.0.1/workspace6/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -109,7 +109,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:2iYHxoRMlI4hzL6CIbp8KFEbjB5Ju3sEJnrYmFlL"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:LxwnZ5gsYpG9p1B4+PJh/KqAXCJ+OmwMTzujwpgT"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -281,13 +281,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5607465c-ceb0-4d35-abf4-222be2c679e0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nMGj9W12Lr8/QmK69UfwKyq8jI8oOBte7afcgEbVnecby8kKD67EL8aX+lllEEzRDWFXCICu5WTe&#13;
-mVcmX1M8Ug==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f68ac539-c04e-4ab2-9299-365f2ea864d0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dydbvNoCjs7QRQ3+5iosOpONpvg36c+DFnXdHTmmHXIb7ZN/N77hVU+tQev7jO4/sNu/6sdTu66C&#13;
-x+iFM0xAYA==</DigestValue></Reference></SignedInfo><SignatureValue>dRpFTS8saPan61ubwJB/rN0obRYK+MyUmK0d92Ag20CaKF5nHJPu0FOGnE8+2cGcYXARhPsUc55d&#13;
-kuuGB6dRwcXrLreVlQurnjVLa5ETkwxjk+hckgO2eTfx2H9SdAFweOgGajUkXODktip4FbnHYF0j&#13;
-ipW+DLl49ijX1QocrCa+ykSzuwZ+rgijHpEJKxaYqvoDI1fcHqMETgtxNz9FwtdSca1BRvcLLW3b&#13;
-etILzHpko6rrDEAx+i5rm89y0kG5DlACrKt/2qaowLKwjY/GGGGw87zX6kYP8O9fgHYhzitYn45U&#13;
-d1pOvkE7tfZTemSFMO+8fqwMquO/mn32GjkJtQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_66703d9a-c69c-4378-a85c-b9ee06a67a75"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>y98FK80YP38MvcbVSe6hmSDwxPcv2qmCrpjUeISMiwFUWRKzJJT+Db4Llg+f4FtWWzZ2zEiVZTQm&#13;
+0dW4fJn4YA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ae4a7784-0eae-4fbb-8a5f-1212e7f6c52a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>W/XNjMmbJZ8vzXccMPYl1A9N+nnTWhJHCmjjZnJZ9MkUFxy1/2gcwN8DisZ0kPVx52rb2zH9cfYM&#13;
+TxaTuRhWkw==</DigestValue></Reference></SignedInfo><SignatureValue>UfFyGS7fsRwHKesmxnMxBgnv/xiV4PUv3r3i5NYtkdgl92qHhcv+gEwPv/7tKWAVaHNj+v8eRYE8&#13;
+nZEsBMBQq2qwcjsqaopZMWRZM0OmNj6mbRoOqgQM86XV21zkJBJujLBzTaCG56ewxza3mum7EYhl&#13;
+mT8c5x4Ra8Fj1adLnzGASYAoXVuLmGXnVF5iXz1/e8WIHZeoZLUBLz1SFlFumQVA3Igot7a/KmHM&#13;
+MVvO3Mxg30Rhl30VBr9COQvICcyo5pCtL2zzteKS1nW1EzT/nhYabYMenO/hwr6q7xvg4aHo1uRE&#13;
+PKBF7yXw/8mHq1vUiQqppanKBmcr3Zv9b56hjw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -309,4 +309,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f68ac539-c04e-4ab2-9299-365f2ea864d0" Target="#_5607465c-ceb0-4d35-abf4-222be2c679e0"><Timestamp>2023-04-19 08:09:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ae4a7784-0eae-4fbb-8a5f-1212e7f6c52a" Target="#_66703d9a-c69c-4378-a85c-b9ee06a67a75"><Timestamp>2023-04-25 10:18:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

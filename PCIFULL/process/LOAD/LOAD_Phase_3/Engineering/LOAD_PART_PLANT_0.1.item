@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_eUeBoFaCEe2lKdAuNfXK7w" name="AZURE_DLS_ACCOUNT_NAME" prompt="configuration.accountName?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="trexonerpstorage"/>
-    <contextParameter comment="" internalId="_eUeBoVaCEe2lKdAuNfXK7w" name="AZURE_DLS_SHARED_KEY" prompt="configuration.sharedKey?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:HS/XJxySuBMRVOmonXsR73SIWPhcDP3r6pE7TR6E9+Y7lLhoYQ0qKzsgNNo0L4aSX0eLD+6OSn2Dqg2FJSUVTzhKZ5hzTNJne6eGhgVSmh68aWnfqMfTweU1EXrx9omBptzRF8wAcuW6PucoNk3GWO3+FF4="/>
+    <contextParameter comment="" internalId="_eUeBoVaCEe2lKdAuNfXK7w" name="AZURE_DLS_SHARED_KEY" prompt="configuration.sharedKey?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:vRv6FnIAxJKn6NJIwS2AlXuzyPFx+U78N2EG+7i0pSnv+FKNy4FSd7sBC4GxEg6jQh4ePh7oHbSIDfTCbYg2e9Fvsg7n8KImfpf8xQMuZv6iWd4xLWEGTIfIkM+L6uDgL45Ox6zmJBB/19D3hG7QMoDAmi8="/>
     <contextParameter comment="" internalId="_eUeBolaCEe2lKdAuNfXK7w" name="AZURE_ENDPOINT_SUFFIX" prompt="configuration.endpointSuffix?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="dfs.core.windows.net"/>
     <contextParameter comment="" internalId="_eUeBo1aCEe2lKdAuNfXK7w" name="DB_HOST" prompt="DB_HOST?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="epicor-sql-test"/>
     <contextParameter comment="" internalId="_eUeBpFaCEe2lKdAuNfXK7w" name="DB_NAME" prompt="DB_NAME?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Epicor700test"/>
-    <contextParameter comment="" internalId="_eUeBpVaCEe2lKdAuNfXK7w" name="DB_PASS" prompt="DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:rQxAe5hsY0DPdU520UnhHrKCTE4rGN22ZgUKi1wYikoq2OcFhsF9itVejMIZyLHuwBuSEl473WQ5X4M="/>
+    <contextParameter comment="" internalId="_eUeBpVaCEe2lKdAuNfXK7w" name="DB_PASS" prompt="DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:fZk2doYSm2jrZouU2i5Et+opO4KTUzbqHltUEB0stTQcbv1fmvxTziVtVLhgMjKz7sNdqxgZfAmofms="/>
     <contextParameter comment="" internalId="_eUeBplaCEe2lKdAuNfXK7w" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="1433"/>
     <contextParameter comment="" internalId="_eUeBp1aCEe2lKdAuNfXK7w" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="TalendSQL"/>
-    <contextParameter comment="" internalId="_eUeBqFaCEe2lKdAuNfXK7w" name="ID" prompt="ID?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Vendor_Trexon_19012023"/>
-    <contextParameter comment="" internalId="_eUeBqVaCEe2lKdAuNfXK7w" name="LOADING_FILESYSTEM" prompt="configuration.dataSet.filesystem?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="golive"/>
+    <contextParameter comment="" internalId="_eUeBqFaCEe2lKdAuNfXK7w" name="ID" prompt="ID?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PRITest"/>
+    <contextParameter comment="" internalId="_eUeBqVaCEe2lKdAuNfXK7w" name="LOADING_FILESYSTEM" prompt="configuration.dataSet.filesystem?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="demo"/>
     <contextParameter comment="" internalId="_eUeBqlaCEe2lKdAuNfXK7w" name="Plant" prompt="Plant?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="MfgSys"/>
-    <contextParameter comment="" internalId="_eUeBq1aCEe2lKdAuNfXK7w" name="SRC_COMPANY" prompt="SRC_COMPANY?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PCI"/>
+    <contextParameter comment="" internalId="_eUeBq1aCEe2lKdAuNfXK7w" name="SRC_COMPANY" prompt="SRC_COMPANY?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PCIFULL"/>
     <contextParameter comment="" internalId="_eUeBrFaCEe2lKdAuNfXK7w" name="SRC_COMPANY_SEG" prompt="SRC_COMPANY_SEG?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="97"/>
     <contextParameter comment="" internalId="_eUeBrVaCEe2lKdAuNfXK7w" name="SRC_COOKIE" prompt="SRC_COOKIE?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_eUeBrlaCEe2lKdAuNfXK7w" name="SRC_DB_HOST" prompt="SRC_DB_HOST?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="epicor-sql-prod"/>
-    <contextParameter comment="" internalId="_eUeBr1aCEe2lKdAuNfXK7w" name="SRC_DB_NAME" prompt="SRC_DB_NAME?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Epicor700Prod"/>
-    <contextParameter comment="" internalId="_eUeBsFaCEe2lKdAuNfXK7w" name="SRC_DB_PASS" prompt="SRC_DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:svxefwT+G54jCPRr+7tCgbmD1xqn73rAajEVeaEZ7d6+JleILTp5Vrpt7CbBPP/+WHg3mvCZ0olLZ2A="/>
+    <contextParameter comment="" internalId="_eUeBrlaCEe2lKdAuNfXK7w" name="SRC_DB_HOST" prompt="SRC_DB_HOST?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="epicor-sql-test"/>
+    <contextParameter comment="" internalId="_eUeBr1aCEe2lKdAuNfXK7w" name="SRC_DB_NAME" prompt="SRC_DB_NAME?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="Epicor700Test"/>
+    <contextParameter comment="" internalId="_eUeBsFaCEe2lKdAuNfXK7w" name="SRC_DB_PASS" prompt="SRC_DB_PASS?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_Password" value="enc:system.encryption.key.v1:Qo76V4UvHIQJ1xBY0xkLsfyfSTZSk8Ps2J8iUfhSTnydeA5nYIoRb05jj48LnMNJLI/jElo3osaEyUI="/>
     <contextParameter comment="" internalId="_eUeBsVaCEe2lKdAuNfXK7w" name="SRC_DB_PORT" prompt="SRC_DB_PORT?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="1433"/>
     <contextParameter comment="" internalId="_eUeBslaCEe2lKdAuNfXK7w" name="SRC_DB_USER" prompt="SRC_DB_USER?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="TalendSQL"/>
-    <contextParameter comment="" internalId="_eUeBs1aCEe2lKdAuNfXK7w" name="SRC_PW" prompt="SRC_PW?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="dpipeline"/>
+    <contextParameter comment="" internalId="_eUeBs1aCEe2lKdAuNfXK7w" name="SRC_PW" prompt="SRC_PW?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="8c^S^bd9Cs8v"/>
     <contextParameter comment="" internalId="_eUeBtFaCEe2lKdAuNfXK7w" name="SRC_UN" prompt="SRC_UN?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="pkumar"/>
-    <contextParameter comment="" internalId="_eUeBtVaCEe2lKdAuNfXK7w" name="SRC_URL" prompt="SRC_URL?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="https://epicor-app-test.tpcwire.com/Epicor700Prod/api/v1/"/>
-    <contextParameter comment="" internalId="_eUeBtlaCEe2lKdAuNfXK7w" name="TGT_COMPANY" prompt="TGT_COMPANY?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PCIFULL"/>
+    <contextParameter comment="" internalId="_eUeBtVaCEe2lKdAuNfXK7w" name="SRC_URL" prompt="SRC_URL?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="https://epicor-app-test.tpcwire.com/Epicor700Test/api/v1/"/>
+    <contextParameter comment="" internalId="_eUeBtlaCEe2lKdAuNfXK7w" name="TGT_COMPANY" prompt="TGT_COMPANY?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="PRI"/>
     <contextParameter comment="" internalId="_eUeBt1aCEe2lKdAuNfXK7w" name="TGT_COMPANY_SEG" prompt="TGT_COMPANY_SEG?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="98"/>
     <contextParameter comment="" internalId="_eUeBuFaCEe2lKdAuNfXK7w" name="TGT_COOKIE" prompt="TGT_COOKIE?" promptNeeded="false" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value=""/>
     <contextParameter comment="" internalId="_eUeBuVaCEe2lKdAuNfXK7w" name="TGT_PW" prompt="TGT_PW?" promptNeeded="true" repositoryContextId="_nxnYwPF9EeywefkG1_HSCA" type="id_String" value="8c^S^bd9Cs8v"/>
@@ -74,7 +74,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:csJjqgYBW0s84mQQjpuu/nhbzuGvkRRRsaoXCI9c"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:BttgmznSBgHdFjDDhB4MKIIyGi/272QYZyaEFIlM"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -89,7 +89,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/TPC/Talend/Talend-Studio-20211109_1610-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend-Studio-20211109_1610-V8.0.1/workspace6/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -109,7 +109,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:B7KPgwo3BLjVfxJqNbSrCx0sKpQFR90djsCl2LZM"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:NS6yUjai+LzWsaOdT1ktaajEUKltm6e6/oh1pxNE"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -150,7 +150,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.authMethod" value="SharedKey"/>
     <elementParameter field="TEXT" name="configuration.accountName" value="context.AZURE_DLS_ACCOUNT_NAME"/>
     <elementParameter field="TEXT" name="configuration.endpointSuffix" value="context.AZURE_ENDPOINT_SUFFIX"/>
-    <elementParameter field="PASSWORD" name="configuration.sharedKey" value="enc:system.encryption.key.v1:pw/1hktGcmO135O8zEnMemFno3Nc1JhDIcGDwCyAKsfykcEBMEEMgWOhSDnf3z6zozUJhiQiF3E="/>
+    <elementParameter field="PASSWORD" name="configuration.sharedKey" value="enc:system.encryption.key.v1:47zaRfIuwqzXRHXxQJUttUXGOmW3/GQ4oef5ffsi1QZHLWA84hYBh4ioq4Jpf0tTYNe7h7j+mvg="/>
     <elementParameter field="TEXT" name="configuration.timeout" value="600"/>
     <elementParameter field="TECHNICAL" name="configuration.__version" show="false" value="-1"/>
     <metadata connector="FLOW" name="tAzureAdlsGen2Connection_1"/>
@@ -576,7 +576,7 @@
       <column comment="" defaultValue="" key="false" length="19" name="SysRevID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables activateColumnNameFilter="true" activateCondensedTool="true" columnNameFilter="" name="Create" rejectInnerJoin="true" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="context.TGT_COMPANY" name="Company" nullable="true" type="id_String"/>
@@ -833,7 +833,7 @@
         <mapperTableEntries expression="row3.SysRowID " name="SysRowID" type="id_Object"/>
         <mapperTableEntries expression="row3.SysRevID " name="SysRevID" nullable="true" type="id_Long"/>
       </outputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row1" sizeState="INTERMEDIATE">
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" minimized="true" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="Company" nullable="true" type="id_String"/>
         <mapperTableEntries name="Plant" nullable="true" type="id_String"/>
         <mapperTableEntries name="PartNum" nullable="true" type="id_String"/>
@@ -968,650 +968,6 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tWriteJSONField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWriteJSONField_1"/>
-    <elementParameter field="COLUMN_LIST" name="JSONFIELD" value="string"/>
-    <elementParameter field="TABLE" name="ROOT" show="false">
-      <elementValue elementRef="PATH" value="/rootTag"/>
-      <elementValue elementRef="COLUMN" value=""/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="main"/>
-      <elementValue elementRef="ORDER" value="1"/>
-      <elementValue elementRef="PATH" value="/rootTag/Plant"/>
-      <elementValue elementRef="COLUMN" value="Plant"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="3"/>
-      <elementValue elementRef="PATH" value="/rootTag/PartNum"/>
-      <elementValue elementRef="COLUMN" value="PartNum"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="4"/>
-      <elementValue elementRef="PATH" value="/rootTag/PrimWhse"/>
-      <elementValue elementRef="COLUMN" value="PrimWhse"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="5"/>
-      <elementValue elementRef="PATH" value="/rootTag/MinimumQty"/>
-      <elementValue elementRef="COLUMN" value="MinimumQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="6"/>
-      <elementValue elementRef="PATH" value="/rootTag/MaximumQty"/>
-      <elementValue elementRef="COLUMN" value="MaximumQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="7"/>
-      <elementValue elementRef="PATH" value="/rootTag/SafetyQty"/>
-      <elementValue elementRef="COLUMN" value="SafetyQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="8"/>
-      <elementValue elementRef="PATH" value="/rootTag/MinOrderQty"/>
-      <elementValue elementRef="COLUMN" value="MinOrderQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="9"/>
-      <elementValue elementRef="PATH" value="/rootTag/LeadTime"/>
-      <elementValue elementRef="COLUMN" value="LeadTime"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="10"/>
-      <elementValue elementRef="PATH" value="/rootTag/VendorNum"/>
-      <elementValue elementRef="COLUMN" value="VendorNum"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="11"/>
-      <elementValue elementRef="PATH" value="/rootTag/PurPoint"/>
-      <elementValue elementRef="COLUMN" value="PurPoint"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="12"/>
-      <elementValue elementRef="PATH" value="/rootTag/MfgLotSize"/>
-      <elementValue elementRef="COLUMN" value="MfgLotSize"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="13"/>
-      <elementValue elementRef="PATH" value="/rootTag/MinMfgLotSize"/>
-      <elementValue elementRef="COLUMN" value="MinMfgLotSize"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="14"/>
-      <elementValue elementRef="PATH" value="/rootTag/MaxMfgLotSize"/>
-      <elementValue elementRef="COLUMN" value="MaxMfgLotSize"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="15"/>
-      <elementValue elementRef="PATH" value="/rootTag/MfgLotMultiple"/>
-      <elementValue elementRef="COLUMN" value="MfgLotMultiple"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="16"/>
-      <elementValue elementRef="PATH" value="/rootTag/DaysOfSupply"/>
-      <elementValue elementRef="COLUMN" value="DaysOfSupply"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="17"/>
-      <elementValue elementRef="PATH" value="/rootTag/ReOrderLevel"/>
-      <elementValue elementRef="COLUMN" value="ReOrderLevel"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="18"/>
-      <elementValue elementRef="PATH" value="/rootTag/MRPRecalcNeeded"/>
-      <elementValue elementRef="COLUMN" value="MRPRecalcNeeded"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="19"/>
-      <elementValue elementRef="PATH" value="/rootTag/ProcessMRP"/>
-      <elementValue elementRef="COLUMN" value="ProcessMRP"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="20"/>
-      <elementValue elementRef="PATH" value="/rootTag/GenerateSugg"/>
-      <elementValue elementRef="COLUMN" value="GenerateSugg"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="21"/>
-      <elementValue elementRef="PATH" value="/rootTag/GetFromLocalWhse"/>
-      <elementValue elementRef="COLUMN" value="GetFromLocalWhse"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="22"/>
-      <elementValue elementRef="PATH" value="/rootTag/ForecastTime"/>
-      <elementValue elementRef="COLUMN" value="ForecastTime"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="23"/>
-      <elementValue elementRef="PATH" value="/rootTag/TransferPlant"/>
-      <elementValue elementRef="COLUMN" value="TransferPlant"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="24"/>
-      <elementValue elementRef="PATH" value="/rootTag/SourceType"/>
-      <elementValue elementRef="COLUMN" value="SourceType"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="25"/>
-      <elementValue elementRef="PATH" value="/rootTag/TransferLeadTime"/>
-      <elementValue elementRef="COLUMN" value="TransferLeadTime"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="26"/>
-      <elementValue elementRef="PATH" value="/rootTag/PrepTime"/>
-      <elementValue elementRef="COLUMN" value="PrepTime"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="27"/>
-      <elementValue elementRef="PATH" value="/rootTag/ReceiveTime"/>
-      <elementValue elementRef="COLUMN" value="ReceiveTime"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="28"/>
-      <elementValue elementRef="PATH" value="/rootTag/PlanTimeFence"/>
-      <elementValue elementRef="COLUMN" value="PlanTimeFence"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="29"/>
-      <elementValue elementRef="PATH" value="/rootTag/ReschedOutDelta"/>
-      <elementValue elementRef="COLUMN" value="ReschedOutDelta"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="30"/>
-      <elementValue elementRef="PATH" value="/rootTag/ReschedInDelta"/>
-      <elementValue elementRef="COLUMN" value="ReschedInDelta"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="31"/>
-      <elementValue elementRef="PATH" value="/rootTag/NonStock"/>
-      <elementValue elementRef="COLUMN" value="NonStock"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="32"/>
-      <elementValue elementRef="PATH" value="/rootTag/PhantomBOM"/>
-      <elementValue elementRef="COLUMN" value="PhantomBOM"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="33"/>
-      <elementValue elementRef="PATH" value="/rootTag/BuyerID"/>
-      <elementValue elementRef="COLUMN" value="BuyerID"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="34"/>
-      <elementValue elementRef="PATH" value="/rootTag/PersonID"/>
-      <elementValue elementRef="COLUMN" value="PersonID"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="35"/>
-      <elementValue elementRef="PATH" value="/rootTag/CostMethod"/>
-      <elementValue elementRef="COLUMN" value="CostMethod"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="36"/>
-      <elementValue elementRef="PATH" value="/rootTag/AltMethod"/>
-      <elementValue elementRef="COLUMN" value="AltMethod"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="37"/>
-      <elementValue elementRef="PATH" value="/rootTag/KitTime"/>
-      <elementValue elementRef="COLUMN" value="KitTime"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="38"/>
-      <elementValue elementRef="PATH" value="/rootTag/KitAllowUpdate"/>
-      <elementValue elementRef="COLUMN" value="KitAllowUpdate"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="39"/>
-      <elementValue elementRef="PATH" value="/rootTag/KitShipComplete"/>
-      <elementValue elementRef="COLUMN" value="KitShipComplete"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="40"/>
-      <elementValue elementRef="PATH" value="/rootTag/KitAllowChangeParms"/>
-      <elementValue elementRef="COLUMN" value="KitAllowChangeParms"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="41"/>
-      <elementValue elementRef="PATH" value="/rootTag/KitBackFlush"/>
-      <elementValue elementRef="COLUMN" value="KitBackFlush"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="42"/>
-      <elementValue elementRef="PATH" value="/rootTag/KitPricing"/>
-      <elementValue elementRef="COLUMN" value="KitPricing"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="43"/>
-      <elementValue elementRef="PATH" value="/rootTag/KitPrintCompsPS"/>
-      <elementValue elementRef="COLUMN" value="KitPrintCompsPS"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="44"/>
-      <elementValue elementRef="PATH" value="/rootTag/KitPrintCompsInv"/>
-      <elementValue elementRef="COLUMN" value="KitPrintCompsInv"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="45"/>
-      <elementValue elementRef="PATH" value="/rootTag/ShortHorizonDays"/>
-      <elementValue elementRef="COLUMN" value="ShortHorizonDays"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="46"/>
-      <elementValue elementRef="PATH" value="/rootTag/ShortHorizonMinMfgLotSize"/>
-      <elementValue elementRef="COLUMN" value="ShortHorizonMinMfgLotSize"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="47"/>
-      <elementValue elementRef="PATH" value="/rootTag/ShortHorizonMaxMfgLotSize"/>
-      <elementValue elementRef="COLUMN" value="ShortHorizonMaxMfgLotSize"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="48"/>
-      <elementValue elementRef="PATH" value="/rootTag/LimitProdYldRecalc"/>
-      <elementValue elementRef="COLUMN" value="LimitProdYldRecalc"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="49"/>
-      <elementValue elementRef="PATH" value="/rootTag/QtyBearing"/>
-      <elementValue elementRef="COLUMN" value="QtyBearing"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="50"/>
-      <elementValue elementRef="PATH" value="/rootTag/MRPLastRunDate"/>
-      <elementValue elementRef="COLUMN" value="MRPLastRunDate"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="51"/>
-      <elementValue elementRef="PATH" value="/rootTag/MRPLastRunTime"/>
-      <elementValue elementRef="COLUMN" value="MRPLastRunTime"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="52"/>
-      <elementValue elementRef="PATH" value="/rootTag/MRPLastScheduledDate"/>
-      <elementValue elementRef="COLUMN" value="MRPLastScheduledDate"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="53"/>
-      <elementValue elementRef="PATH" value="/rootTag/ShortHorizonDaysSupp"/>
-      <elementValue elementRef="COLUMN" value="ShortHorizonDaysSupp"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="54"/>
-      <elementValue elementRef="PATH" value="/rootTag/SNMask"/>
-      <elementValue elementRef="COLUMN" value="SNMask"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="55"/>
-      <elementValue elementRef="PATH" value="/rootTag/SNBaseDataType"/>
-      <elementValue elementRef="COLUMN" value="SNBaseDataType"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="56"/>
-      <elementValue elementRef="PATH" value="/rootTag/SNFormat"/>
-      <elementValue elementRef="COLUMN" value="SNFormat"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="57"/>
-      <elementValue elementRef="PATH" value="/rootTag/SNMaskSuffix"/>
-      <elementValue elementRef="COLUMN" value="SNMaskSuffix"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="58"/>
-      <elementValue elementRef="PATH" value="/rootTag/SNLastUsedSeq"/>
-      <elementValue elementRef="COLUMN" value="SNLastUsedSeq"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="59"/>
-      <elementValue elementRef="PATH" value="/rootTag/BuyToOrder"/>
-      <elementValue elementRef="COLUMN" value="BuyToOrder"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="60"/>
-      <elementValue elementRef="PATH" value="/rootTag/DropShip"/>
-      <elementValue elementRef="COLUMN" value="DropShip"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="61"/>
-      <elementValue elementRef="PATH" value="/rootTag/PcntTolerance"/>
-      <elementValue elementRef="COLUMN" value="PcntTolerance"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="62"/>
-      <elementValue elementRef="PATH" value="/rootTag/CalcPcnt"/>
-      <elementValue elementRef="COLUMN" value="CalcPcnt"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="63"/>
-      <elementValue elementRef="PATH" value="/rootTag/CalcQty"/>
-      <elementValue elementRef="COLUMN" value="CalcQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="64"/>
-      <elementValue elementRef="PATH" value="/rootTag/CalcValue"/>
-      <elementValue elementRef="COLUMN" value="CalcValue"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="65"/>
-      <elementValue elementRef="PATH" value="/rootTag/QtyTolerance"/>
-      <elementValue elementRef="COLUMN" value="QtyTolerance"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="66"/>
-      <elementValue elementRef="PATH" value="/rootTag/ValueTolerance"/>
-      <elementValue elementRef="COLUMN" value="ValueTolerance"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="67"/>
-      <elementValue elementRef="PATH" value="/rootTag/DemandQty"/>
-      <elementValue elementRef="COLUMN" value="DemandQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="68"/>
-      <elementValue elementRef="PATH" value="/rootTag/ReservedQty"/>
-      <elementValue elementRef="COLUMN" value="ReservedQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="69"/>
-      <elementValue elementRef="PATH" value="/rootTag/AllocatedQty"/>
-      <elementValue elementRef="COLUMN" value="AllocatedQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="70"/>
-      <elementValue elementRef="PATH" value="/rootTag/NeverReuseMRPJob"/>
-      <elementValue elementRef="COLUMN" value="NeverReuseMRPJob"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="71"/>
-      <elementValue elementRef="PATH" value="/rootTag/DeleteMRPJobs"/>
-      <elementValue elementRef="COLUMN" value="DeleteMRPJobs"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="72"/>
-      <elementValue elementRef="PATH" value="/rootTag/TotMfgLeadTimeSys"/>
-      <elementValue elementRef="COLUMN" value="TotMfgLeadTimeSys"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="73"/>
-      <elementValue elementRef="PATH" value="/rootTag/TotMfgLeadTimeMnl"/>
-      <elementValue elementRef="COLUMN" value="TotMfgLeadTimeMnl"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="74"/>
-      <elementValue elementRef="PATH" value="/rootTag/LvlMfgLeadTimeSys"/>
-      <elementValue elementRef="COLUMN" value="LvlMfgLeadTimeSys"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="75"/>
-      <elementValue elementRef="PATH" value="/rootTag/LvlMfgLeadTimeMnl"/>
-      <elementValue elementRef="COLUMN" value="LvlMfgLeadTimeMnl"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="76"/>
-      <elementValue elementRef="PATH" value="/rootTag/AutoConsumeStock"/>
-      <elementValue elementRef="COLUMN" value="AutoConsumeStock"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="77"/>
-      <elementValue elementRef="PATH" value="/rootTag/StartMinLotQty"/>
-      <elementValue elementRef="COLUMN" value="StartMinLotQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="78"/>
-      <elementValue elementRef="PATH" value="/rootTag/MinLotLeadTime"/>
-      <elementValue elementRef="COLUMN" value="MinLotLeadTime"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="79"/>
-      <elementValue elementRef="PATH" value="/rootTag/MfgLeadTimeMnl"/>
-      <elementValue elementRef="COLUMN" value="MfgLeadTimeMnl"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="80"/>
-      <elementValue elementRef="PATH" value="/rootTag/MfgLeadTimeEnteredBy"/>
-      <elementValue elementRef="COLUMN" value="MfgLeadTimeEnteredBy"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="81"/>
-      <elementValue elementRef="PATH" value="/rootTag/MinStartQty"/>
-      <elementValue elementRef="COLUMN" value="MinStartQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="82"/>
-      <elementValue elementRef="PATH" value="/rootTag/RawMaterial"/>
-      <elementValue elementRef="COLUMN" value="RawMaterial"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="83"/>
-      <elementValue elementRef="PATH" value="/rootTag/MultiLevelCTP"/>
-      <elementValue elementRef="COLUMN" value="MultiLevelCTP"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="84"/>
-      <elementValue elementRef="PATH" value="/rootTag/RcvInspectionReq"/>
-      <elementValue elementRef="COLUMN" value="RcvInspectionReq"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="85"/>
-      <elementValue elementRef="PATH" value="/rootTag/ExternalMES"/>
-      <elementValue elementRef="COLUMN" value="ExternalMES"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="86"/>
-      <elementValue elementRef="PATH" value="/rootTag/UrgentLeadTime"/>
-      <elementValue elementRef="COLUMN" value="UrgentLeadTime"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="87"/>
-      <elementValue elementRef="PATH" value="/rootTag/UrgentMinOrdQty"/>
-      <elementValue elementRef="COLUMN" value="UrgentMinOrdQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="88"/>
-      <elementValue elementRef="PATH" value="/rootTag/UrgentMultQty"/>
-      <elementValue elementRef="COLUMN" value="UrgentMultQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="89"/>
-      <elementValue elementRef="PATH" value="/rootTag/UrgentPurPoint"/>
-      <elementValue elementRef="COLUMN" value="UrgentPurPoint"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="90"/>
-      <elementValue elementRef="PATH" value="/rootTag/UrgentVendorNum"/>
-      <elementValue elementRef="COLUMN" value="UrgentVendorNum"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="91"/>
-      <elementValue elementRef="PATH" value="/rootTag/LinkToContract"/>
-      <elementValue elementRef="COLUMN" value="LinkToContract"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="92"/>
-      <elementValue elementRef="PATH" value="/rootTag/MMSExclude"/>
-      <elementValue elementRef="COLUMN" value="MMSExclude"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="93"/>
-      <elementValue elementRef="PATH" value="/rootTag/MMSSales"/>
-      <elementValue elementRef="COLUMN" value="MMSSales"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="94"/>
-      <elementValue elementRef="PATH" value="/rootTag/MMSIssue"/>
-      <elementValue elementRef="COLUMN" value="MMSIssue"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="95"/>
-      <elementValue elementRef="PATH" value="/rootTag/MMSHistory"/>
-      <elementValue elementRef="COLUMN" value="MMSHistory"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="96"/>
-      <elementValue elementRef="PATH" value="/rootTag/MMSSafetyFactor"/>
-      <elementValue elementRef="COLUMN" value="MMSSafetyFactor"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="97"/>
-      <elementValue elementRef="PATH" value="/rootTag/MMSMaxFactor"/>
-      <elementValue elementRef="COLUMN" value="MMSMaxFactor"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="98"/>
-      <elementValue elementRef="PATH" value="/rootTag/SavedMinimumQty"/>
-      <elementValue elementRef="COLUMN" value="SavedMinimumQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="99"/>
-      <elementValue elementRef="PATH" value="/rootTag/SavedMaximumQty"/>
-      <elementValue elementRef="COLUMN" value="SavedMaximumQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="100"/>
-      <elementValue elementRef="PATH" value="/rootTag/SavedSafetyQty"/>
-      <elementValue elementRef="COLUMN" value="SavedSafetyQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="101"/>
-      <elementValue elementRef="PATH" value="/rootTag/SavedCalculatedUsageQty"/>
-      <elementValue elementRef="COLUMN" value="SavedCalculatedUsageQty"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="102"/>
-      <elementValue elementRef="PATH" value="/rootTag/ACWPercentage"/>
-      <elementValue elementRef="COLUMN" value="ACWPercentage"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="103"/>
-      <elementValue elementRef="PATH" value="/rootTag/ACWDays"/>
-      <elementValue elementRef="COLUMN" value="ACWDays"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="104"/>
-      <elementValue elementRef="PATH" value="/rootTag/TopLvlMfgLeadTimeSys"/>
-      <elementValue elementRef="COLUMN" value="TopLvlMfgLeadTimeSys"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="105"/>
-      <elementValue elementRef="PATH" value="/rootTag/TopLvlMfgLeadTimeMnl"/>
-      <elementValue elementRef="COLUMN" value="TopLvlMfgLeadTimeMnl"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="106"/>
-      <elementValue elementRef="PATH" value="/rootTag/BitFlag"/>
-      <elementValue elementRef="COLUMN" value="BitFlag"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="107"/>
-      <elementValue elementRef="PATH" value="/rootTag/VendorNumVendorID"/>
-      <elementValue elementRef="COLUMN" value="VendorNumVendorID"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="108"/>
-      <elementValue elementRef="PATH" value="/rootTag/PartIUM"/>
-      <elementValue elementRef="COLUMN" value="PartIUM"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="109"/>
-      <elementValue elementRef="PATH" value="/rootTag/PartSalesUM"/>
-      <elementValue elementRef="COLUMN" value="PartSalesUM"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="110"/>
-    </elementParameter>
-    <elementParameter field="TABLE" name="GROUP" show="false"/>
-    <elementParameter field="TABLE" name="LOOP" show="false">
-      <elementValue elementRef="PATH" value="/rootTag/Company"/>
-      <elementValue elementRef="COLUMN" value="Company"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="main"/>
-      <elementValue elementRef="ORDER" value="2"/>
-    </elementParameter>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="TABLE" name="GROUPBYS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="Plant"/>
-      <elementValue elementRef="INPUT_COLUMN" value="Plant"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="REMOVE_ROOT" value="true"/>
-    <elementParameter field="CHECK" name="COMPACT_FORMAT" show="false" value="true"/>
-    <elementParameter field="CHECK" name="QUOTE_ALL_VALUES" value="true"/>
-    <elementParameter field="CHECK" name="QUOTE_NULL_VALUES" value="false"/>
-    <elementParameter field="CHECK" name="ALLOW_EMPTY_STRINGS" value="true"/>
-    <elementParameter field="CHECK" name="USE_SCIENTIFIC_NOTATION" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tWriteJSONField_1">
-      <column comment="" key="false" length="-1" name="string" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="body" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="Plant" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_1"/>
-    <elementParameter field="TEXT" name="URL" value="context.TGT_URL"/>
-    <elementParameter field="TEXT" name="PATH" value="&quot;Erp.BO.PartSvc/PartPlants&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="METHOD" value="POST"/>
-    <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json"/>
-    <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" value="application/json"/>
-    <elementParameter field="TABLE" name="QUERY"/>
-    <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
-    <elementParameter field="TEXT" name="SERVICE_NAMESPACE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="SERVICE_NAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="SERVICE_ACTIVITY_MONITOR" value="false"/>
-    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC"/>
-    <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.TGT_UN"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:mrTQEaEPJ7ffMGz3NvdjxriNFWiR42W2Q+52zZZKbajMv4IhYBy90ddJ"/>
-    <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
-    <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
-    <elementParameter field="TEXT" name="CORRELATION_VALUE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="CHECK_SERVER_IDENTITY" value="true"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
-    <elementParameter field="CHECK" name="FOLLOW_REDIRECTS" value="false"/>
-    <elementParameter field="CHECK" name="REDIRECT_NON_SAME_HOST" show="false" value="false"/>
-    <elementParameter field="CHECK" name="MAINTAIN_SESSION" show="false" value="false"/>
-    <elementParameter field="CHECK" name="ENABLE_WEBCLIENT_OPERATION_REPORTING" value="true"/>
-    <elementParameter field="CHECK" name="CONVERT_RESPONSE_TO_DOM" value="true"/>
-    <elementParameter field="CHECK" name="UNWRAP_JSON_REQUEST" value="false"/>
-    <elementParameter field="CHECK" name="WRAP_JSON_RESPONSE" value="true"/>
-    <elementParameter field="CHECK" name="CONVERT_TYPES_TO_STRINGS" value="false"/>
-    <elementParameter field="TABLE" name="HEADERS">
-      <elementValue elementRef="NAME" value="&quot;Content-Type&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;application/json&quot;"/>
-      <elementValue elementRef="NAME" value="&quot;Cookie&quot;"/>
-      <elementValue elementRef="VALUE" value="context.TGT_COOKIE"/>
-      <elementValue elementRef="NAME" value="&quot;CallSettings&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;{\&quot;Company\&quot;:\&quot;&quot;+context.TGT_COMPANY+&quot;\&quot;,\&quot;Plant\&quot;:\&quot;&quot;+row2.Plant+&quot;\&quot;}&quot;"/>
-    </elementParameter>
-    <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
-    <elementParameter field="TABLE" name="SERVICE_ACTIVITY_MONITOR_CUSTOM_PROPERTIES" show="false"/>
-    <elementParameter field="CHECK" name="DISABLE_CHUNKED_ENCODING" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_TIMEOUT" value="3600"/>
-    <elementParameter field="TEXT" name="RECEIVE_TIMEOUT" value="3600"/>
-    <elementParameter field="LABEL" name="RECEIVE_TIMEOUT_DESC" value="(See tRESTClient doc. to configure timeouts for Talend Runtime)"/>
-    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
-    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
-    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
-    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:rVWof37jbHGl8OJg97tBjcwxXpgGxKZg3ZPepl3c"/>
-    <elementParameter field="TEXT" name="ARRAY_KEYS" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tRESTClient_1">
-      <column comment="" key="false" length="-1" name="string" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="body" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="Plant" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="RESPONSE" name="RESPONSE">
-      <column defaultValue="" key="false" length="0" name="statusCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="4048" name="string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="FAULT" name="FAULT">
-      <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
   <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
@@ -1623,7 +979,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.DB_NAME"/>
     <elementParameter field="TEXT" name="USER" value="context.DB_USER"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:cHs1vA5WMbVi8cp6+OWwJNbFSztc1gXf0RusheebgZNvu8e8XZoOc9DaVA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:HYCG62CLkvaSVoo3wSE/E5RqznoDRj0xaLrguq7+PTA+CnTeuKw57aeM4w=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2253,49 +1609,6 @@
       <column comment="" key="false" length="50" name="PartNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_2"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#13;&#10;output_row.errorCode = input_row.errorCode;&#13;&#10;output_row.errorMessage = input_row.errorMessage;&#13;&#10;output_row.JSON = row2.string;&#13;&#10;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJavaRow_2">
-      <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="JSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="AzureAdlsGen2Output" componentVersion="3" offsetLabelX="7" offsetLabelY="0" posX="1088" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAzureAdlsGen2Output_2"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="YXp1cmUtZGxzLWdlbjIjQXp1cmUjQWRsc0dlbjJPdXRwdXQ"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.connection.authMethod" value="SharedKey"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.connection.accountName" value="context.AZURE_DLS_ACCOUNT_NAME"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.connection.endpointSuffix" value="context.AZURE_ENDPOINT_SUFFIX"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.connection.sharedKey" value="enc:system.encryption.key.v1:Fce8FndPL85ZQ0qbvXOKhYGr5idyc6zh/GcVSkOTXxnY+wAY5SOjekxygsi5NpiSn2O07VbafH0="/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.filesystem" value="context.LOADING_FILESYSTEM"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.blobPath" value="&quot;/LoadError/&quot;+context.ID+&quot;/PartPlant&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.format" value="CSV"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.recordDelimiter" value="CRLF"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.fieldDelimiter" value="COMMA"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.csvConfiguration.csvFormatOptions.textEnclosureCharacter" value="&quot;&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.csvConfiguration.csvFormatOptions.escapeCharacter" value="&quot;&quot;&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.encoding" value="UTF8"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.csvConfiguration.csvFormatOptions.useHeader" value="true"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.csvConfiguration.csvFormatOptions.header" value="1"/>
-    <elementParameter field="TEXT" name="configuration.$maxBatchSize" value="10"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.connection.timeout" value="600"/>
-    <elementParameter field="TEXT" name="configuration.blobNameTemplate" value="data-"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value="tAzureAdlsGen2Connection_1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="3"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.connection.__version" show="false" value="-1"/>
-    <metadata connector="FLOW" name="tAzureAdlsGen2Output_2">
-      <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="JSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="LOOKUP" name="LOOKUP"/>
-    <metadata connector="MERGE" name="MERGE"/>
-    <metadata connector="REJECT" name="REJECT"/>
-  </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_3"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="JSONObject ds = new JSONObject();&#10;JSONArray &#9;tableArray = new JSONArray();&#10;&#10;// JSON From Previous Step&#10;JSONObject item = new JSONObject(input_row.string);&#10;tableArray.put(item);&#10;ds.put(&quot;PartPlant&quot;, tableArray);&#10;&#10;JSONObject row = new JSONObject();&#10;row.put(&quot;ds&quot;, ds);&#10;&#10;output_row.string = row.toString();&#10;&#10;//System.out.println(output_row.string);"/>
@@ -2321,7 +1634,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.TGT_UN"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:vgBlOumCORm3paQvSQ/uEx1ejyZu0L4NawwSf2dj/HnNksQq5RPDlTe3"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:nHjr+O/oUrt73DiA+UdA4QRuvchEC+ohvVgZQ2QnuvKSS93p6SDbisi7"/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -2356,7 +1669,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:CMvpvKE6+aP67Jxf4KxsJ+KeN+x7bVSehsbvQhiT"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:K2VZti8amOYLRKfWn+QyaF88zqfcb8HrtPiEMUTS"/>
     <elementParameter field="TEXT" name="ARRAY_KEYS" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tRESTClient_2">
@@ -2375,7 +1688,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#13;&#10;output_row.errorCode = input_row.errorCode;&#13;&#10;output_row.errorMessage = input_row.errorMessage;&#13;&#10;output_row.JSON = row4.string;&#13;&#10;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#13;&#10;output_row.errorCode = input_row.errorCode;&#13;&#10;output_row.errorMessage = input_row.errorMessage;&#13;&#10;output_row.JSON = row4.string;&#10;//System.out.println(output_row.errorMessage);&#10;//System.out.println(output_row.JSON);&#13;&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
@@ -2390,7 +1703,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.connection.authMethod" value="SharedKey"/>
     <elementParameter field="TEXT" name="configuration.dataSet.connection.accountName" value="context.AZURE_DLS_ACCOUNT_NAME"/>
     <elementParameter field="TEXT" name="configuration.dataSet.connection.endpointSuffix" value="context.AZURE_ENDPOINT_SUFFIX"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.connection.sharedKey" value="enc:system.encryption.key.v1:epuxwd3gJBVBdViLwoCnDwuBYIwVFkAR85so5TVtx/Ea2vyIYH7W2hl2XDR+2Dn0wxY6pwA/8gY="/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.connection.sharedKey" value="enc:system.encryption.key.v1:BZxzHvdfgXI9nnpyqgy0iL/OQZOHc3p+qNGudvkd+vvaoRDPVg4ZKsyUjob85JAyctcZZqk+hBQ="/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.filesystem" value="context.LOADING_FILESYSTEM"/>
     <elementParameter field="TEXT" name="configuration.dataSet.blobPath" value="&quot;/LoadError/&quot;+context.ID+&quot;/PartPlant&quot;"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.format" value="CSV"/>
@@ -2408,6 +1721,693 @@
     <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="3"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.connection.__version" show="false" value="-1"/>
     <metadata connector="FLOW" name="tAzureAdlsGen2Output_1">
+      <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT"/>
+  </node>
+  <node componentName="tWriteJSONField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWriteJSONField_1"/>
+    <elementParameter field="COLUMN_LIST" name="JSONFIELD" value="string"/>
+    <elementParameter field="TABLE" name="ROOT" show="false">
+      <elementValue elementRef="PATH" value="/rootTag"/>
+      <elementValue elementRef="COLUMN" value=""/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="1"/>
+      <elementValue elementRef="PATH" value="/rootTag/Plant"/>
+      <elementValue elementRef="COLUMN" value="Plant"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="3"/>
+      <elementValue elementRef="PATH" value="/rootTag/PartNum"/>
+      <elementValue elementRef="COLUMN" value="PartNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="4"/>
+      <elementValue elementRef="PATH" value="/rootTag/PrimWhse"/>
+      <elementValue elementRef="COLUMN" value="PrimWhse"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="5"/>
+      <elementValue elementRef="PATH" value="/rootTag/MinimumQty"/>
+      <elementValue elementRef="COLUMN" value="MinimumQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="6"/>
+      <elementValue elementRef="PATH" value="/rootTag/MaximumQty"/>
+      <elementValue elementRef="COLUMN" value="MaximumQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="7"/>
+      <elementValue elementRef="PATH" value="/rootTag/SafetyQty"/>
+      <elementValue elementRef="COLUMN" value="SafetyQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="8"/>
+      <elementValue elementRef="PATH" value="/rootTag/MinOrderQty"/>
+      <elementValue elementRef="COLUMN" value="MinOrderQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="9"/>
+      <elementValue elementRef="PATH" value="/rootTag/LeadTime"/>
+      <elementValue elementRef="COLUMN" value="LeadTime"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="10"/>
+      <elementValue elementRef="PATH" value="/rootTag/VendorNum"/>
+      <elementValue elementRef="COLUMN" value="VendorNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="11"/>
+      <elementValue elementRef="PATH" value="/rootTag/PurPoint"/>
+      <elementValue elementRef="COLUMN" value="PurPoint"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="12"/>
+      <elementValue elementRef="PATH" value="/rootTag/MfgLotSize"/>
+      <elementValue elementRef="COLUMN" value="MfgLotSize"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="13"/>
+      <elementValue elementRef="PATH" value="/rootTag/MinMfgLotSize"/>
+      <elementValue elementRef="COLUMN" value="MinMfgLotSize"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="14"/>
+      <elementValue elementRef="PATH" value="/rootTag/MaxMfgLotSize"/>
+      <elementValue elementRef="COLUMN" value="MaxMfgLotSize"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="15"/>
+      <elementValue elementRef="PATH" value="/rootTag/MfgLotMultiple"/>
+      <elementValue elementRef="COLUMN" value="MfgLotMultiple"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="16"/>
+      <elementValue elementRef="PATH" value="/rootTag/DaysOfSupply"/>
+      <elementValue elementRef="COLUMN" value="DaysOfSupply"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="17"/>
+      <elementValue elementRef="PATH" value="/rootTag/ReOrderLevel"/>
+      <elementValue elementRef="COLUMN" value="ReOrderLevel"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="18"/>
+      <elementValue elementRef="PATH" value="/rootTag/MRPRecalcNeeded"/>
+      <elementValue elementRef="COLUMN" value="MRPRecalcNeeded"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="19"/>
+      <elementValue elementRef="PATH" value="/rootTag/ProcessMRP"/>
+      <elementValue elementRef="COLUMN" value="ProcessMRP"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="20"/>
+      <elementValue elementRef="PATH" value="/rootTag/GenerateSugg"/>
+      <elementValue elementRef="COLUMN" value="GenerateSugg"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="21"/>
+      <elementValue elementRef="PATH" value="/rootTag/GetFromLocalWhse"/>
+      <elementValue elementRef="COLUMN" value="GetFromLocalWhse"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="22"/>
+      <elementValue elementRef="PATH" value="/rootTag/ForecastTime"/>
+      <elementValue elementRef="COLUMN" value="ForecastTime"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="23"/>
+      <elementValue elementRef="PATH" value="/rootTag/TransferPlant"/>
+      <elementValue elementRef="COLUMN" value="TransferPlant"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="24"/>
+      <elementValue elementRef="PATH" value="/rootTag/SourceType"/>
+      <elementValue elementRef="COLUMN" value="SourceType"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="25"/>
+      <elementValue elementRef="PATH" value="/rootTag/TransferLeadTime"/>
+      <elementValue elementRef="COLUMN" value="TransferLeadTime"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="26"/>
+      <elementValue elementRef="PATH" value="/rootTag/PrepTime"/>
+      <elementValue elementRef="COLUMN" value="PrepTime"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="27"/>
+      <elementValue elementRef="PATH" value="/rootTag/ReceiveTime"/>
+      <elementValue elementRef="COLUMN" value="ReceiveTime"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="28"/>
+      <elementValue elementRef="PATH" value="/rootTag/PlanTimeFence"/>
+      <elementValue elementRef="COLUMN" value="PlanTimeFence"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="29"/>
+      <elementValue elementRef="PATH" value="/rootTag/ReschedOutDelta"/>
+      <elementValue elementRef="COLUMN" value="ReschedOutDelta"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="30"/>
+      <elementValue elementRef="PATH" value="/rootTag/ReschedInDelta"/>
+      <elementValue elementRef="COLUMN" value="ReschedInDelta"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="31"/>
+      <elementValue elementRef="PATH" value="/rootTag/NonStock"/>
+      <elementValue elementRef="COLUMN" value="NonStock"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="32"/>
+      <elementValue elementRef="PATH" value="/rootTag/PhantomBOM"/>
+      <elementValue elementRef="COLUMN" value="PhantomBOM"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="33"/>
+      <elementValue elementRef="PATH" value="/rootTag/BuyerID"/>
+      <elementValue elementRef="COLUMN" value="BuyerID"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="34"/>
+      <elementValue elementRef="PATH" value="/rootTag/PersonID"/>
+      <elementValue elementRef="COLUMN" value="PersonID"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="35"/>
+      <elementValue elementRef="PATH" value="/rootTag/CostMethod"/>
+      <elementValue elementRef="COLUMN" value="CostMethod"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="36"/>
+      <elementValue elementRef="PATH" value="/rootTag/AltMethod"/>
+      <elementValue elementRef="COLUMN" value="AltMethod"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="37"/>
+      <elementValue elementRef="PATH" value="/rootTag/KitTime"/>
+      <elementValue elementRef="COLUMN" value="KitTime"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="38"/>
+      <elementValue elementRef="PATH" value="/rootTag/KitAllowUpdate"/>
+      <elementValue elementRef="COLUMN" value="KitAllowUpdate"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="39"/>
+      <elementValue elementRef="PATH" value="/rootTag/KitShipComplete"/>
+      <elementValue elementRef="COLUMN" value="KitShipComplete"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="40"/>
+      <elementValue elementRef="PATH" value="/rootTag/KitAllowChangeParms"/>
+      <elementValue elementRef="COLUMN" value="KitAllowChangeParms"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="41"/>
+      <elementValue elementRef="PATH" value="/rootTag/KitBackFlush"/>
+      <elementValue elementRef="COLUMN" value="KitBackFlush"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="42"/>
+      <elementValue elementRef="PATH" value="/rootTag/KitPricing"/>
+      <elementValue elementRef="COLUMN" value="KitPricing"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="43"/>
+      <elementValue elementRef="PATH" value="/rootTag/KitPrintCompsPS"/>
+      <elementValue elementRef="COLUMN" value="KitPrintCompsPS"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="44"/>
+      <elementValue elementRef="PATH" value="/rootTag/KitPrintCompsInv"/>
+      <elementValue elementRef="COLUMN" value="KitPrintCompsInv"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="45"/>
+      <elementValue elementRef="PATH" value="/rootTag/ShortHorizonDays"/>
+      <elementValue elementRef="COLUMN" value="ShortHorizonDays"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="46"/>
+      <elementValue elementRef="PATH" value="/rootTag/ShortHorizonMinMfgLotSize"/>
+      <elementValue elementRef="COLUMN" value="ShortHorizonMinMfgLotSize"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="47"/>
+      <elementValue elementRef="PATH" value="/rootTag/ShortHorizonMaxMfgLotSize"/>
+      <elementValue elementRef="COLUMN" value="ShortHorizonMaxMfgLotSize"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="48"/>
+      <elementValue elementRef="PATH" value="/rootTag/LimitProdYldRecalc"/>
+      <elementValue elementRef="COLUMN" value="LimitProdYldRecalc"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="49"/>
+      <elementValue elementRef="PATH" value="/rootTag/QtyBearing"/>
+      <elementValue elementRef="COLUMN" value="QtyBearing"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="50"/>
+      <elementValue elementRef="PATH" value="/rootTag/MRPLastRunDate"/>
+      <elementValue elementRef="COLUMN" value="MRPLastRunDate"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="51"/>
+      <elementValue elementRef="PATH" value="/rootTag/MRPLastRunTime"/>
+      <elementValue elementRef="COLUMN" value="MRPLastRunTime"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="52"/>
+      <elementValue elementRef="PATH" value="/rootTag/MRPLastScheduledDate"/>
+      <elementValue elementRef="COLUMN" value="MRPLastScheduledDate"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="53"/>
+      <elementValue elementRef="PATH" value="/rootTag/ShortHorizonDaysSupp"/>
+      <elementValue elementRef="COLUMN" value="ShortHorizonDaysSupp"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="54"/>
+      <elementValue elementRef="PATH" value="/rootTag/SNMask"/>
+      <elementValue elementRef="COLUMN" value="SNMask"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="55"/>
+      <elementValue elementRef="PATH" value="/rootTag/SNBaseDataType"/>
+      <elementValue elementRef="COLUMN" value="SNBaseDataType"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="56"/>
+      <elementValue elementRef="PATH" value="/rootTag/SNFormat"/>
+      <elementValue elementRef="COLUMN" value="SNFormat"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="57"/>
+      <elementValue elementRef="PATH" value="/rootTag/SNMaskSuffix"/>
+      <elementValue elementRef="COLUMN" value="SNMaskSuffix"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="58"/>
+      <elementValue elementRef="PATH" value="/rootTag/SNLastUsedSeq"/>
+      <elementValue elementRef="COLUMN" value="SNLastUsedSeq"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="59"/>
+      <elementValue elementRef="PATH" value="/rootTag/BuyToOrder"/>
+      <elementValue elementRef="COLUMN" value="BuyToOrder"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="60"/>
+      <elementValue elementRef="PATH" value="/rootTag/DropShip"/>
+      <elementValue elementRef="COLUMN" value="DropShip"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="61"/>
+      <elementValue elementRef="PATH" value="/rootTag/PcntTolerance"/>
+      <elementValue elementRef="COLUMN" value="PcntTolerance"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="62"/>
+      <elementValue elementRef="PATH" value="/rootTag/CalcPcnt"/>
+      <elementValue elementRef="COLUMN" value="CalcPcnt"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="63"/>
+      <elementValue elementRef="PATH" value="/rootTag/CalcQty"/>
+      <elementValue elementRef="COLUMN" value="CalcQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="64"/>
+      <elementValue elementRef="PATH" value="/rootTag/CalcValue"/>
+      <elementValue elementRef="COLUMN" value="CalcValue"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="65"/>
+      <elementValue elementRef="PATH" value="/rootTag/QtyTolerance"/>
+      <elementValue elementRef="COLUMN" value="QtyTolerance"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="66"/>
+      <elementValue elementRef="PATH" value="/rootTag/ValueTolerance"/>
+      <elementValue elementRef="COLUMN" value="ValueTolerance"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="67"/>
+      <elementValue elementRef="PATH" value="/rootTag/DemandQty"/>
+      <elementValue elementRef="COLUMN" value="DemandQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="68"/>
+      <elementValue elementRef="PATH" value="/rootTag/ReservedQty"/>
+      <elementValue elementRef="COLUMN" value="ReservedQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="69"/>
+      <elementValue elementRef="PATH" value="/rootTag/AllocatedQty"/>
+      <elementValue elementRef="COLUMN" value="AllocatedQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="70"/>
+      <elementValue elementRef="PATH" value="/rootTag/NeverReuseMRPJob"/>
+      <elementValue elementRef="COLUMN" value="NeverReuseMRPJob"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="71"/>
+      <elementValue elementRef="PATH" value="/rootTag/DeleteMRPJobs"/>
+      <elementValue elementRef="COLUMN" value="DeleteMRPJobs"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="72"/>
+      <elementValue elementRef="PATH" value="/rootTag/TotMfgLeadTimeSys"/>
+      <elementValue elementRef="COLUMN" value="TotMfgLeadTimeSys"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="73"/>
+      <elementValue elementRef="PATH" value="/rootTag/TotMfgLeadTimeMnl"/>
+      <elementValue elementRef="COLUMN" value="TotMfgLeadTimeMnl"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="74"/>
+      <elementValue elementRef="PATH" value="/rootTag/LvlMfgLeadTimeSys"/>
+      <elementValue elementRef="COLUMN" value="LvlMfgLeadTimeSys"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="75"/>
+      <elementValue elementRef="PATH" value="/rootTag/LvlMfgLeadTimeMnl"/>
+      <elementValue elementRef="COLUMN" value="LvlMfgLeadTimeMnl"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="76"/>
+      <elementValue elementRef="PATH" value="/rootTag/AutoConsumeStock"/>
+      <elementValue elementRef="COLUMN" value="AutoConsumeStock"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="77"/>
+      <elementValue elementRef="PATH" value="/rootTag/StartMinLotQty"/>
+      <elementValue elementRef="COLUMN" value="StartMinLotQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="78"/>
+      <elementValue elementRef="PATH" value="/rootTag/MinLotLeadTime"/>
+      <elementValue elementRef="COLUMN" value="MinLotLeadTime"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="79"/>
+      <elementValue elementRef="PATH" value="/rootTag/MfgLeadTimeMnl"/>
+      <elementValue elementRef="COLUMN" value="MfgLeadTimeMnl"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="80"/>
+      <elementValue elementRef="PATH" value="/rootTag/MfgLeadTimeEnteredBy"/>
+      <elementValue elementRef="COLUMN" value="MfgLeadTimeEnteredBy"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="81"/>
+      <elementValue elementRef="PATH" value="/rootTag/MinStartQty"/>
+      <elementValue elementRef="COLUMN" value="MinStartQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="82"/>
+      <elementValue elementRef="PATH" value="/rootTag/RawMaterial"/>
+      <elementValue elementRef="COLUMN" value="RawMaterial"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="83"/>
+      <elementValue elementRef="PATH" value="/rootTag/MultiLevelCTP"/>
+      <elementValue elementRef="COLUMN" value="MultiLevelCTP"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="84"/>
+      <elementValue elementRef="PATH" value="/rootTag/RcvInspectionReq"/>
+      <elementValue elementRef="COLUMN" value="RcvInspectionReq"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="85"/>
+      <elementValue elementRef="PATH" value="/rootTag/ExternalMES"/>
+      <elementValue elementRef="COLUMN" value="ExternalMES"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="86"/>
+      <elementValue elementRef="PATH" value="/rootTag/UrgentLeadTime"/>
+      <elementValue elementRef="COLUMN" value="UrgentLeadTime"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="87"/>
+      <elementValue elementRef="PATH" value="/rootTag/UrgentMinOrdQty"/>
+      <elementValue elementRef="COLUMN" value="UrgentMinOrdQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="88"/>
+      <elementValue elementRef="PATH" value="/rootTag/UrgentMultQty"/>
+      <elementValue elementRef="COLUMN" value="UrgentMultQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="89"/>
+      <elementValue elementRef="PATH" value="/rootTag/UrgentPurPoint"/>
+      <elementValue elementRef="COLUMN" value="UrgentPurPoint"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="90"/>
+      <elementValue elementRef="PATH" value="/rootTag/UrgentVendorNum"/>
+      <elementValue elementRef="COLUMN" value="UrgentVendorNum"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="91"/>
+      <elementValue elementRef="PATH" value="/rootTag/LinkToContract"/>
+      <elementValue elementRef="COLUMN" value="LinkToContract"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="92"/>
+      <elementValue elementRef="PATH" value="/rootTag/MMSExclude"/>
+      <elementValue elementRef="COLUMN" value="MMSExclude"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="93"/>
+      <elementValue elementRef="PATH" value="/rootTag/MMSSales"/>
+      <elementValue elementRef="COLUMN" value="MMSSales"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="94"/>
+      <elementValue elementRef="PATH" value="/rootTag/MMSIssue"/>
+      <elementValue elementRef="COLUMN" value="MMSIssue"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="95"/>
+      <elementValue elementRef="PATH" value="/rootTag/MMSHistory"/>
+      <elementValue elementRef="COLUMN" value="MMSHistory"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="96"/>
+      <elementValue elementRef="PATH" value="/rootTag/MMSSafetyFactor"/>
+      <elementValue elementRef="COLUMN" value="MMSSafetyFactor"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="97"/>
+      <elementValue elementRef="PATH" value="/rootTag/MMSMaxFactor"/>
+      <elementValue elementRef="COLUMN" value="MMSMaxFactor"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="98"/>
+      <elementValue elementRef="PATH" value="/rootTag/SavedMinimumQty"/>
+      <elementValue elementRef="COLUMN" value="SavedMinimumQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="99"/>
+      <elementValue elementRef="PATH" value="/rootTag/SavedMaximumQty"/>
+      <elementValue elementRef="COLUMN" value="SavedMaximumQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="100"/>
+      <elementValue elementRef="PATH" value="/rootTag/SavedSafetyQty"/>
+      <elementValue elementRef="COLUMN" value="SavedSafetyQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="101"/>
+      <elementValue elementRef="PATH" value="/rootTag/SavedCalculatedUsageQty"/>
+      <elementValue elementRef="COLUMN" value="SavedCalculatedUsageQty"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="102"/>
+      <elementValue elementRef="PATH" value="/rootTag/ACWPercentage"/>
+      <elementValue elementRef="COLUMN" value="ACWPercentage"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="103"/>
+      <elementValue elementRef="PATH" value="/rootTag/ACWDays"/>
+      <elementValue elementRef="COLUMN" value="ACWDays"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="104"/>
+      <elementValue elementRef="PATH" value="/rootTag/TopLvlMfgLeadTimeSys"/>
+      <elementValue elementRef="COLUMN" value="TopLvlMfgLeadTimeSys"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="105"/>
+      <elementValue elementRef="PATH" value="/rootTag/TopLvlMfgLeadTimeMnl"/>
+      <elementValue elementRef="COLUMN" value="TopLvlMfgLeadTimeMnl"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="106"/>
+      <elementValue elementRef="PATH" value="/rootTag/BitFlag"/>
+      <elementValue elementRef="COLUMN" value="BitFlag"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="107"/>
+      <elementValue elementRef="PATH" value="/rootTag/VendorNumVendorID"/>
+      <elementValue elementRef="COLUMN" value="VendorNumVendorID"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="108"/>
+      <elementValue elementRef="PATH" value="/rootTag/PartIUM"/>
+      <elementValue elementRef="COLUMN" value="PartIUM"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="109"/>
+      <elementValue elementRef="PATH" value="/rootTag/PartSalesUM"/>
+      <elementValue elementRef="COLUMN" value="PartSalesUM"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="branch"/>
+      <elementValue elementRef="ORDER" value="110"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="GROUP" show="false"/>
+    <elementParameter field="TABLE" name="LOOP" show="false">
+      <elementValue elementRef="PATH" value="/rootTag/Company"/>
+      <elementValue elementRef="COLUMN" value="Company"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="ATTRIBUTE" value="main"/>
+      <elementValue elementRef="ORDER" value="2"/>
+    </elementParameter>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="TABLE" name="GROUPBYS">
+      <elementValue elementRef="OUTPUT_COLUMN" value="Plant"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Plant"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="REMOVE_ROOT" value="true"/>
+    <elementParameter field="CHECK" name="COMPACT_FORMAT" show="false" value="true"/>
+    <elementParameter field="CHECK" name="QUOTE_ALL_VALUES" value="true"/>
+    <elementParameter field="CHECK" name="QUOTE_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="ALLOW_EMPTY_STRINGS" value="true"/>
+    <elementParameter field="CHECK" name="USE_SCIENTIFIC_NOTATION" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tWriteJSONField_1">
+      <column comment="" key="false" length="-1" name="string" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="body" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="Plant" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_1"/>
+    <elementParameter field="TEXT" name="URL" value="context.TGT_URL"/>
+    <elementParameter field="TEXT" name="PATH" value="&quot;Erp.BO.PartSvc/PartPlants&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="METHOD" value="POST"/>
+    <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json"/>
+    <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" value="application/json"/>
+    <elementParameter field="TABLE" name="QUERY"/>
+    <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
+    <elementParameter field="TEXT" name="SERVICE_NAMESPACE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="SERVICE_ACTIVITY_MONITOR" value="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.TGT_UN"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:QPjcLQcjQOsD4jRr5N3/rsW733VB8RfoT0fiRz9UN+iIrvrSRU3ze+SG"/>
+    <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
+    <elementParameter field="TEXT" name="CORRELATION_VALUE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CHECK_SERVER_IDENTITY" value="true"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter field="CHECK" name="FOLLOW_REDIRECTS" value="false"/>
+    <elementParameter field="CHECK" name="REDIRECT_NON_SAME_HOST" show="false" value="false"/>
+    <elementParameter field="CHECK" name="MAINTAIN_SESSION" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_WEBCLIENT_OPERATION_REPORTING" value="true"/>
+    <elementParameter field="CHECK" name="CONVERT_RESPONSE_TO_DOM" value="true"/>
+    <elementParameter field="CHECK" name="UNWRAP_JSON_REQUEST" value="false"/>
+    <elementParameter field="CHECK" name="WRAP_JSON_RESPONSE" value="true"/>
+    <elementParameter field="CHECK" name="CONVERT_TYPES_TO_STRINGS" value="false"/>
+    <elementParameter field="TABLE" name="HEADERS">
+      <elementValue elementRef="NAME" value="&quot;Content-Type&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;application/json&quot;"/>
+      <elementValue elementRef="NAME" value="&quot;Cookie&quot;"/>
+      <elementValue elementRef="VALUE" value="context.TGT_COOKIE"/>
+      <elementValue elementRef="NAME" value="&quot;CallSettings&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;{\&quot;Company\&quot;:\&quot;&quot;+context.TGT_COMPANY+&quot;\&quot;,\&quot;Plant\&quot;:\&quot;&quot;+row2.Plant+&quot;\&quot;}&quot;"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="TABLE" name="SERVICE_ACTIVITY_MONITOR_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_CHUNKED_ENCODING" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_TIMEOUT" value="3600"/>
+    <elementParameter field="TEXT" name="RECEIVE_TIMEOUT" value="3600"/>
+    <elementParameter field="LABEL" name="RECEIVE_TIMEOUT_DESC" value="(See tRESTClient doc. to configure timeouts for Talend Runtime)"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:WnbnCGvdPGma0Ozy0/Xu7ChtjfzVaqdL0vCSpRr8"/>
+    <elementParameter field="TEXT" name="ARRAY_KEYS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tRESTClient_1">
+      <column comment="" key="false" length="-1" name="string" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="body" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="Plant" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="RESPONSE" name="RESPONSE">
+      <column defaultValue="" key="false" length="0" name="statusCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="4048" name="string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FAULT" name="FAULT">
+      <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#13;&#10;output_row.errorCode = input_row.errorCode;&#13;&#10;output_row.errorMessage = input_row.errorMessage;&#13;&#10;output_row.JSON = row2.string;&#13;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_2">
+      <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="JSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="AzureAdlsGen2Output" componentVersion="3" offsetLabelX="7" offsetLabelY="0" posX="1088" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAzureAdlsGen2Output_2"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="YXp1cmUtZGxzLWdlbjIjQXp1cmUjQWRsc0dlbjJPdXRwdXQ"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.connection.authMethod" value="SharedKey"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.connection.accountName" value="context.AZURE_DLS_ACCOUNT_NAME"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.connection.endpointSuffix" value="context.AZURE_ENDPOINT_SUFFIX"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.connection.sharedKey" value="enc:system.encryption.key.v1:4XVDXrZXU+LDEteR5wdSQszyl2jJUTmrrDABnW0Hon90YYb2bTxdmS59qc7frQ66XV7IT0/diLU="/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.filesystem" value="context.LOADING_FILESYSTEM"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.blobPath" value="&quot;/LoadError/&quot;+context.ID+&quot;/PartPlant&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.format" value="CSV"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.recordDelimiter" value="CRLF"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.fieldDelimiter" value="COMMA"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.csvConfiguration.csvFormatOptions.textEnclosureCharacter" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.csvConfiguration.csvFormatOptions.escapeCharacter" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.csvConfiguration.csvFormatOptions.encoding" value="UTF8"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.csvConfiguration.csvFormatOptions.useHeader" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.csvConfiguration.csvFormatOptions.header" value="1"/>
+    <elementParameter field="TEXT" name="configuration.$maxBatchSize" value="10"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.connection.timeout" value="600"/>
+    <elementParameter field="TEXT" name="configuration.blobNameTemplate" value="data-"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value="tAzureAdlsGen2Connection_1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="3"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.connection.__version" show="false" value="-1"/>
+    <metadata connector="FLOW" name="tAzureAdlsGen2Output_2">
       <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="JSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
@@ -2468,6 +2468,31 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Update1"/>
   </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="8" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Plant"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tWriteJSONField_2" offsetLabelX="0" offsetLabelY="0" source="tWriteJSONField_2" target="tJavaRow_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
+  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tJavaRow_3" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_3" target="tRESTClient_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row9"/>
+  </connection>
+  <connection connectorName="FAULT" label="row5" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_2" target="tJavaRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
+  </connection>
+  <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tAzureAdlsGen2Output_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row7"/>
+  </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tWriteJSONField_1" offsetLabelX="0" offsetLabelY="0" source="tWriteJSONField_1" target="tRESTClient_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
       <elementValue elementRef="TRACE_COLUMN" value="Company"/>
@@ -2487,34 +2512,9 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row6"/>
   </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="8" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
-    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="Plant"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
-  </connection>
-  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tWriteJSONField_2" offsetLabelX="0" offsetLabelY="0" source="tWriteJSONField_2" target="tJavaRow_3">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
-  </connection>
   <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tJavaRow_2" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_2" target="tAzureAdlsGen2Output_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row8"/>
-  </connection>
-  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tJavaRow_3" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_3" target="tRESTClient_2">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row9"/>
-  </connection>
-  <connection connectorName="FAULT" label="row5" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_2" target="tJavaRow_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
-  </connection>
-  <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tAzureAdlsGen2Output_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row7"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAzureAdlsGen2Connection_1"/>
@@ -2526,13 +2526,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c2b889bc-d426-4708-8678-2910610d6596"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LW6+Fo7OCi8Z/qXkmtrf8Hi6Otg0/iFvgBm1bdSBkS1+dZ2l9URCWJ583SdzXam45GVcghAN4kmN&#13;
-PeZGrgw/cg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_284d0fc7-10e4-4c11-b02d-0b1966e9c895"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/wYqYzHACggMe4S58l6yYq+wpFxqZZkUI6Ka9VY+p/0kqOzvnmR/LBgpKvliabHaDPntkR1ZabtO&#13;
-OO8adSXJPQ==</DigestValue></Reference></SignedInfo><SignatureValue>bqpnBPKX5kkbx9XRXyXre5/U960cvBuvuhkZresBCaH5BUqiKfsXN55B/QO0iU8p+g54wgP5QbBW&#13;
-C+TGEZq4guwiDU9FS3xE41F1DCz2yo3l+b/PmtiRv1pb7X1jM+3qqxsqRoyB1wYe2nIUP5pdMItG&#13;
-AA1kGNuH7F0UzVrJxHYv+wQmxi5qrHNIbrl/Pbefx6F6Bm0zeQ+tAbDBxXwROICYJECMJHAjxFSa&#13;
-mKs7oYttPR4Irv3wK8upSTRuRbt3cQL9jY8irexmMONopEEJqeLWr0R+aY3Snv0FR3FAJ2OsUvdy&#13;
-DEJAMZ3lXRVnl6jNHUMhCxLoX/uhlD9DDit+2Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3e211e51-f38d-4acf-b236-7926411fd94a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8wkP3yFqj0qqwj51+LbcOvLiYk1nxHwSxc85NdTw38xJUvL3gDRaJjr5RJMPHDT1u12yUNQgX+YW&#13;
+I+HIn3Yq8w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ed42a583-3482-4e53-bc45-e808e02814fd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SMpIBuGe2JHa8CHCIUuxx5/N+P1r35lx5WIh1/dLKW4b/raZu5GrflDS3PU8PxtYJZBun54iDLoq&#13;
+lewa8RiIPw==</DigestValue></Reference></SignedInfo><SignatureValue>Z/EkcLLHFdpzwfJ5cNq6m+Lnx6UAiWL3RlgT28t7tPGPh2IvO3rFgBThBwcmTTYzBkKJe+/e8zop&#13;
+D+ZhIzQR/Hh3uopT82Nr1z6JetrstJ/AHInfcAo+Uo1PJEQ1vD9uM571Bn0cSayWYhBJnEXudSh5&#13;
+HOlUo84oS9HzqRkmyKhS7NjTB1E7bQvtCAGmwnc1dm1BjEiRpiiZgQDA01+ejGZXohZyahdJJ0Mz&#13;
+l/ykyaTfLzYv3SRzyOkH4BUgsMm53UsgVMLIBYoetRDSV7R8mbwZ/nprmNNb+uD1HN5QWh1QBAZd&#13;
+oEVMqSYA7srCEKOOjO/VLwvfzYwKjqfXukzYMw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -2554,4 +2554,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_284d0fc7-10e4-4c11-b02d-0b1966e9c895" Target="#_c2b889bc-d426-4708-8678-2910610d6596"><Timestamp>2023-04-19 08:09:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ed42a583-3482-4e53-bc45-e808e02814fd" Target="#_3e211e51-f38d-4acf-b236-7926411fd94a"><Timestamp>2023-05-01 12:04:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
